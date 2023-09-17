@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    //movement
     public float moveSpeed;
     [HideInInspector]
     public Vector2 moveDir;
@@ -13,13 +14,16 @@ public class PlayerMovement : MonoBehaviour
     public float lastVerticalVector;
     [HideInInspector]
     public Vector2 lastMovedVector;
+
+
     Rigidbody2D rb;
-    int health;
+    public CharacterScriptableObject characterData;
+    //int health;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        lastMovedVector = new Vector2(1,0f);
+        lastMovedVector = new Vector2(1, 0f);
     }
 
     void Update()
@@ -31,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Move();
     }
-    
+
     void InputManagement()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
@@ -53,19 +57,19 @@ public class PlayerMovement : MonoBehaviour
 
         if (moveDir.y != 0 && moveDir.x != 0)
         {
-            lastMovedVector = new Vector2(lastHorizontalVector,lastVerticalVector);
+            lastMovedVector = new Vector2(lastHorizontalVector, lastVerticalVector);
         }
     }
 
-    public void Damage()
+    /*public void Damage()
     {
         health--;
         if(health==0)
         Destroy(gameObject);
-    }
+    }*/
 
     void Move()
     {
-        rb.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
+        rb.velocity = new Vector2(moveDir.x * characterData.MoveSpeed, moveDir.y * characterData.MoveSpeed);
     }
 }

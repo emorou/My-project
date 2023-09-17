@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 12409198}
   - component: {fileID: 12409199}
   - component: {fileID: 12409200}
+  - component: {fileID: 12409202}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -162,6 +163,7 @@ MonoBehaviour:
   lastHorizontalVector: 0
   lastVerticalVector: 0
   lastMovedVector: {x: 0, y: 0}
+  characterData: {fileID: 11400000, guid: 711997e910114a3409b87e1d6954a4b6, type: 2}
 --- !u!212 &12409196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -343,6 +345,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16607178ac1ecc0418eca9ceb861ebd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &12409202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12409194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ce5d10957102946b3af4f6e9325020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterData: {fileID: 11400000, guid: 711997e910114a3409b87e1d6954a4b6, type: 2}
 --- !u!1 &140671984
 GameObject:
   m_ObjectHideFlags: 0
