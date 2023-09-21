@@ -13,8 +13,9 @@ public class PlayerMovement : MonoBehaviour
     public float lastVerticalVector;
     [HideInInspector]
     public Vector2 lastMovedVector;
+
     Rigidbody2D rb;
-    int health;
+    public CharacterScriptableObject characterData;
 
     void Start()
     {
@@ -57,15 +58,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void Damage()
-    {
-        health--;
-        if(health==0)
-        Destroy(gameObject);
-    }
-
     void Move()
     {
-        rb.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
+        rb.velocity = new Vector2(moveDir.x * characterData.MoveSpeed, moveDir.y * characterData.MoveSpeed);
     }
 }
