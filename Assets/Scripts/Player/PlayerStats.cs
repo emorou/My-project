@@ -1,43 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
     public CharacterScriptableObject characterData;
-
     float currentHealth;
     float currentMoveSpeed;
-
-    [Header("Experience/Level")]
-    public int experience = 0;
-    public int level = 1;
-    public int experienceCap;
-
-    [System.Serializable]
-    public class LevelRange
-    {
-        public int startLevel;
-        public int endLevel;
-        public int experienceCapIncrease;
-    }
-
-    public List<LevelRange> levelRanges;
 
     [Header("I-Frames")]
     public float invincibilityDuration;
     public float invincibilityTimer;
     public bool isInvincible;
 
+    public int gold;
+
+    public TMP_Text goldText;
+    public TMP_Text levelText;
+    public TMP_Text healthText;
+
+    public PlayerLevel level;
+
     void Start()
     {
-        experienceCap = levelRanges[0].experienceCapIncrease;
+        level = FindObjectOfType<PlayerLevel>();
     }
 
-    public void IncreaseExperience(int amount)
+    public void IncreaseGold(int amount)
     {
-        experience += amount;
-    }   
+        gold += amount; 
+    }
 
     void Update()
     {
@@ -49,22 +42,11 @@ public class PlayerStats : MonoBehaviour
         {
             isInvincible = false;
         }
-    }
 
-    void LevelUpChecker()
-    {
-        if(experience >= experienceCap)
-        {
-            level++;
-            experience -= experienceCap;
+        goldText.text = "Gold : " + gold;
+        levelText.text = "Level : " + level.level + " (" + level.experience + " / " + level.experienceCap + " )";
+        healthText.text = "HP : " + currentHealth;
 
-            int experienceCapIncrease = 0;
-            foreach (LevelRange range in levelRanges)
-            {
-                experienceCapIncrease = range.experienceCapIncrease;
-                break;
-            }
-        }
     }
 
     void Awake()

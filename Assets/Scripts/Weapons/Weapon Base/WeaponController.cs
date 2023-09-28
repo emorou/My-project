@@ -24,7 +24,7 @@ public class WeaponController : MonoBehaviour
     protected virtual void Update()
     {
         currentCooldown -= Time.deltaTime;
-        if (currentCooldown <= 0f)   //Once the cooldown becomes 0, attack
+        if (currentCooldown <= 0f && Input.GetKeyDown(KeyCode.Space))   //Once the cooldown becomes 0, attack
         {
             Attack();
         }
