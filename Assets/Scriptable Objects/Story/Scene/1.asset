@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb72abb8986a154e811231907e34a05, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Hello Celestina
+    speaker: {fileID: 11400000, guid: 0d3e04eb50e491d4796afac61b4f3a69, type: 2}
+  - text: Hello Celtic
+    speaker: {fileID: 11400000, guid: 2690bcfbd4e61d44085ab0536c855870, type: 2}
+  - text: haha haha ahah hahah hahah ahahahaa
+    speaker: {fileID: 11400000, guid: 2690bcfbd4e61d44085ab0536c855870, type: 2}
