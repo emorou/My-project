@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d08773f7f943245af40f1fcd0e2fb2, type: 3}
+  m_Name: Celestina
+  m_EditorClassIdentifier: 
+  speakerName: Celestina
+  textColor: {r: 1, g: 0.3915094, b: 0.8828391, a: 0}
+  sprite: {fileID: 7905202260885499465, guid: d1e67c40cd98c4f4f8e1e82601a3bcad, type: 3}
