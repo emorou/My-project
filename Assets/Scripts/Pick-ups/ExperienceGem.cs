@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class ExperienceGem : MonoBehaviour, ICollectible
 {
-    public int experienceGranted;
+    public int goldGranted;
+    private PlayerStats player;
 
     public void Collect()
     {
         PlayerStats player = FindObjectOfType<PlayerStats>();
-        player.IncreaseExperience(experienceGranted);
+        player.IncreaseGold(goldGranted);
         Destroy(gameObject); 
     }
 }
