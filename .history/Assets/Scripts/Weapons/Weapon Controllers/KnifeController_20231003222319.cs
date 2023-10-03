@@ -37,11 +37,16 @@ public class KnifeController : WeaponController
         currentAmmo -= reloadAmount;
     }
 
-    public void RestoreAmmo(int amount)
+    public void RestoreAmmo(float amount)
     {
-        if(currentAmmo < maxAmmoSize)
+        if(currentHealth < characterData.MaxHealth)
         {
-            currentAmmo += amount;
+            currentHealth += amount;
+
+            if(currentHealth > characterData.MaxHealth)
+            {
+                currentHealth = characterData.MaxHealth;
+            }
         }
     }
 }

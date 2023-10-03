@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 12409200}
   - component: {fileID: 12409203}
   - component: {fileID: 12409204}
+  - component: {fileID: 12409205}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -402,6 +403,21 @@ MonoBehaviour:
   - startLevel: 4
     endLevel: 6
     experienceCapIncrease: 200
+--- !u!114 &12409205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12409194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c71e31ded259ee448359425aeeb2b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 12409200}
+  meleeSpeed: 10
+  damage: 0
 --- !u!1 &36316915
 GameObject:
   m_ObjectHideFlags: 0
@@ -5017,6 +5033,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop
       objectReference: {fileID: 0}
+    - target: {fileID: 4453476724012313172, guid: 36483a046d36e5d4597f9dcc6ad1b145, type: 3}
+      propertyPath: drops.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453476724012313172, guid: 36483a046d36e5d4597f9dcc6ad1b145, type: 3}
+      propertyPath: drops.Array.data[1].name
+      value: Health Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453476724012313172, guid: 36483a046d36e5d4597f9dcc6ad1b145, type: 3}
+      propertyPath: drops.Array.data[1].dropRate
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453476724012313172, guid: 36483a046d36e5d4597f9dcc6ad1b145, type: 3}
+      propertyPath: drops.Array.data[1].itemPrefab
+      value: 
+      objectReference: {fileID: 2982530912266475388, guid: 9982a1758e341b1429977747804a7205, type: 3}
     - target: {fileID: 6439343981169589312, guid: 36483a046d36e5d4597f9dcc6ad1b145, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.03
