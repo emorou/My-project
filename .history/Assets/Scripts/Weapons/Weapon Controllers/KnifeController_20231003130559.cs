@@ -18,8 +18,7 @@ public class KnifeController : WeaponController
         {
             Reload();
         }
-
-        if(currentClip != 0)
+        else
         {
         base.Attack();
         currentClip--;
@@ -31,6 +30,7 @@ public class KnifeController : WeaponController
 
     public void Reload()
     {
+        if()
         int reloadAmount = maxClipSize - currentClip;
         reloadAmount = (currentAmmo - reloadAmount) >= 0 ? reloadAmount : currentAmmo;
         currentClip += reloadAmount;

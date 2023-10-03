@@ -30,7 +30,7 @@ public class WeaponController : MonoBehaviour
             Attack();
         }
 
-        if(knifecontroller.currentClip == 0)
+        if(knifecontroller.currentcl == 0)
         {
             knifecontroller.Reload();
         }

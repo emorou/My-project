@@ -19,7 +19,7 @@ public class KnifeController : WeaponController
             Reload();
         }
 
-        if(currentClip != 0)
+        if(curr)
         {
         base.Attack();
         currentClip--;

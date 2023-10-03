@@ -16,17 +16,17 @@ public class KnifeController : WeaponController
     {
         if(currentClip == 0)
         {
-            Reload();
-        }
 
-        if(currentClip != 0)
+        }
+        else
         {
+            
+        }
         base.Attack();
         currentClip--;
         GameObject spawnedKnife = Instantiate(weaponData.Prefab);
         spawnedKnife.transform.position = transform.position; //Assign the position to be the same as this object which is parented to the player
-        spawnedKnife.GetComponent<KnifeBehaviour>().DirectionChecker(pm.lastMovedVector);   //Reference and set the direction  
-        }
+        spawnedKnife.GetComponent<KnifeBehaviour>().DirectionChecker(pm.lastMovedVector);   //Reference and set the direction
     }
 
     public void Reload()

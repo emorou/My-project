@@ -14,19 +14,11 @@ public class KnifeController : WeaponController
 
     protected override void Attack()
     {
-        if(currentClip == 0)
-        {
-            Reload();
-        }
-
-        if(currentClip != 0)
-        {
         base.Attack();
-        currentClip--;
+        curr
         GameObject spawnedKnife = Instantiate(weaponData.Prefab);
         spawnedKnife.transform.position = transform.position; //Assign the position to be the same as this object which is parented to the player
-        spawnedKnife.GetComponent<KnifeBehaviour>().DirectionChecker(pm.lastMovedVector);   //Reference and set the direction  
-        }
+        spawnedKnife.GetComponent<KnifeBehaviour>().DirectionChecker(pm.lastMovedVector);   //Reference and set the direction
     }
 
     public void Reload()

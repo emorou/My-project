@@ -1190,7 +1190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 249.8374, y: -27.627}
+  m_AnchoredPosition: {x: 249.8374, y: -27.626953}
   m_SizeDelta: {x: 499.6747, y: 55.254}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &389321443
@@ -1770,6 +1770,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 44d3fd94e53e11a4c9cc833be427ea40, type: 2}
+  knifecontroller: {fileID: 835840954}
+  currentClip: 0
+  maxClipSize: 10
+  currentAmmo: 10
+  maxAmmoSize: 100
 --- !u!1 &919830959
 GameObject:
   m_ObjectHideFlags: 0
