@@ -17,5 +17,3 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 0d3e04eb50e491d4796afac61b4f3a69, type: 2}
   - text: Hello Celtic
     speaker: {fileID: 11400000, guid: 2690bcfbd4e61d44085ab0536c855870, type: 2}
-  - text: haha haha ahah hahah hahah ahahahaa
-    speaker: {fileID: 11400000, guid: 2690bcfbd4e61d44085ab0536c855870, type: 2}

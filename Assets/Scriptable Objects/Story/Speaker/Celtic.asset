@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Celtic
   textColor: {r: 0.96967095, g: 1, b: 0.514151, a: 0}
-  sprite: {fileID: 6673332443556406900, guid: 5094f4bc49e08fc4b8ed9a85aa443a83, type: 3}
+  characterPrefab: {fileID: 6673332443556406900, guid: 5094f4bc49e08fc4b8ed9a85aa443a83, type: 3}

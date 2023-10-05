@@ -14,5 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Celestina
   textColor: {r: 1, g: 0.3915094, b: 0.8828391, a: 0}
-  characterPrefab: {fileID: 0}
-  characterSprite: {fileID: 21300000, guid: 95e4eed9fcadb624fae75535b9f36bd2, type: 3}
+  characterPrefab: {fileID: 3334275405407190066, guid: 3b5768103cac8a046a22d6a20c1099f1, type: 3}
