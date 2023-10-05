@@ -48,6 +48,7 @@ public class BottomBarController : MonoBehaviour
         currentScene = scene;
         sentenceIndex = -1;
         PlayNextSentence();
+        speaker = currentScene.sentences[sentenceIndex].speaker;
     }
 
     public void PlayNextSentence()

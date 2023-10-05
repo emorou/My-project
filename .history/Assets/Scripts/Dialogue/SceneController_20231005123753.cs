@@ -9,8 +9,7 @@ public class SceneController : MonoBehaviour
     public GameObject dialogueBox;
     public GameObject keyText;
     bool playerDetected;
-    public Speaker speaker;
-    
+    private Speaker speaker;
     void Start()
     {
         bottomBar.PlayScene(currentScene);

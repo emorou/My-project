@@ -17,6 +17,7 @@ public class BottomBarController : MonoBehaviour
     public Transform celticPosition;
     public Transform npcPosition;
 
+    public SpriteRenderer cardPrefab;
     
     private enum State
     {
@@ -60,13 +61,11 @@ public class BottomBarController : MonoBehaviour
 
         if(sentenceIndex % 2 != 0)
         {
-            SpriteRenderer instance = Instantiate(speaker.characterPrefab, npcPosition.transform.position, Quaternion.identity);
-            instance.sprite = speaker.characterSprite;
+            Instantiate(speaker.sprite, celticPosition);
         }
         else
         {
-            SpriteRenderer instance = Instantiate(speaker.characterPrefab, celticPosition.transform.position, Quaternion.identity);
-            instance.sprite = speaker.characterSprite;
+            Instantiate(speaker.sprite, npcPosition);
         }
     }
 

@@ -16,8 +16,6 @@ public class BottomBarController : MonoBehaviour
     private bool isHidden = false; 
     public Transform celticPosition;
     public Transform npcPosition;
-
-    
     private enum State
     {
         PLAYING, COMPLETED
@@ -60,13 +58,11 @@ public class BottomBarController : MonoBehaviour
 
         if(sentenceIndex % 2 != 0)
         {
-            SpriteRenderer instance = Instantiate(speaker.characterPrefab, npcPosition.transform.position, Quaternion.identity);
-            instance.sprite = speaker.characterSprite;
+            Instantiate(speaker.sprite, celticPosition);
         }
         else
         {
-            SpriteRenderer instance = Instantiate(speaker.characterPrefab, celticPosition.transform.position, Quaternion.identity);
-            instance.sprite = speaker.characterSprite;
+            Instantiate(speaker.sprite, npcPosition);
         }
     }
 

@@ -9,6 +9,6 @@ public class Speaker : ScriptableObject
 {
     public string speakerName;
     public Color textColor;
-    public SpriteRenderer characterPrefab;
-    public Sprite characterSprite;
+    public SpriteRenderer cardPrefab;
+
 }

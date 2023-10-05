@@ -48,9 +48,12 @@ public class BottomBarController : MonoBehaviour
         currentScene = scene;
         sentenceIndex = -1;
         PlayNextSentence();
+        speaker = currentScene.sentences[sentenceIndex].speaker;
     }
 
     public void PlayNextSentence()
+    {
+         if (sentenceIndex >= 0 && sentenceIndex < currentScene.sentences.Count)
     {
         StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
@@ -58,16 +61,20 @@ public class BottomBarController : MonoBehaviour
         textColor.a = 1f; // Set the alpha component to 1 (opaque)
         personNameText.color = textColor;
 
-        if(sentenceIndex % 2 != 0)
+        if (sentenceIndex % 2 != 0)
         {
-            SpriteRenderer instance = Instantiate(speaker.characterPrefab, npcPosition.transform.position, Quaternion.identity);
-            instance.sprite = speaker.characterSprite;
+            SpriteRenderer instance = Instantiate(speaker.characterPrefab, celticPosition.transform.position, Quaternion.identity);
         }
         else
         {
-            SpriteRenderer instance = Instantiate(speaker.characterPrefab, celticPosition.transform.position, Quaternion.identity);
-            instance.sprite = speaker.characterSprite;
+            SpriteRenderer instance = Instantiate(speaker.characterPrefab, npcPosition.transform.position, Quaternion.identity);
         }
+    }
+    else
+    {
+        // Handle the case where sentenceIndex is out of bounds
+        Debug.LogWarning("No more sentences in the current scene.");
+    }
     }
 
     public bool IsCompleted()

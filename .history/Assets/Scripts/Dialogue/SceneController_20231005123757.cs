@@ -10,7 +10,6 @@ public class SceneController : MonoBehaviour
     public GameObject keyText;
     bool playerDetected;
     public Speaker speaker;
-    
     void Start()
     {
         bottomBar.PlayScene(currentScene);

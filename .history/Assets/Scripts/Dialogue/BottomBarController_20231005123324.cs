@@ -48,6 +48,7 @@ public class BottomBarController : MonoBehaviour
         currentScene = scene;
         sentenceIndex = -1;
         PlayNextSentence();
+        speaker = currentScene.sentences[sentenceIndex].speaker;
     }
 
     public void PlayNextSentence()
@@ -60,7 +61,7 @@ public class BottomBarController : MonoBehaviour
 
         if(sentenceIndex % 2 != 0)
         {
-            SpriteRenderer instance = Instantiate(speaker.characterPrefab, npcPosition.transform.position, Quaternion.identity);
+            SpriteRenderer instance = Instantiate(speaker.characterPrefab, celticPosition.transform.position, Quaternion.identity);
             instance.sprite = speaker.characterSprite;
         }
         else
