@@ -21,7 +21,8 @@ public class MeleeWeaponBehaviour : MonoBehaviour
     {
         currentDamage = weaponData.Damage;
         currentSpeed = weaponData.Speed;
-        currentCooldownDuration = weaponData.CooldownDurationMelee;
+        currentCooldownDuration = weaponData.CooldownDuration;
+        currentPierce = weaponData.Pierce;
     }
 
     protected virtual void Start()
@@ -36,12 +37,5 @@ public class MeleeWeaponBehaviour : MonoBehaviour
             EnemyStats enemy = col.GetComponent<EnemyStats>();
             enemy.TakeDamage(currentDamage);
         }
-        else if(col.CompareTag("Prop"))
-        {
-            if(col.gameObject.TryGetComponent(out BreakableProps breakable))
-            {
-                breakable.TakeDamage(currentDamage);
-            }
-        }   
     }
 }

@@ -12,7 +12,7 @@ public class KnifeController : WeaponController
         base.Start();
     }
 
-    protected override void KnifeAttack()
+    protected void KnifeAttack()
     {
         if(currentClip == 0)
         {

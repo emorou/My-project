@@ -141,7 +141,6 @@ GameObject:
   - component: {fileID: 12409200}
   - component: {fileID: 12409203}
   - component: {fileID: 12409204}
-  - component: {fileID: 12409205}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -233,6 +232,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 835840953}
+  - {fileID: 2143207196}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &12409198
@@ -403,21 +403,6 @@ MonoBehaviour:
   - startLevel: 4
     endLevel: 6
     experienceCapIncrease: 200
---- !u!114 &12409205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12409194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c71e31ded259ee448359425aeeb2b9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 12409200}
-  meleeSpeed: 10
-  damage: 0
 --- !u!1 &36316915
 GameObject:
   m_ObjectHideFlags: 0
@@ -1786,7 +1771,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 44d3fd94e53e11a4c9cc833be427ea40, type: 2}
-  knifecontroller: {fileID: 835840954}
   currentClip: 0
   maxClipSize: 10
   currentAmmo: 10
@@ -2851,6 +2835,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090032984}
   m_CullTransparentMesh: 1
+--- !u!1 &2143207195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2143207196}
+  - component: {fileID: 2143207197}
+  m_Layer: 0
+  m_Name: Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2143207196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143207195}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 12409197}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2143207197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143207195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e301c9e04c9a0b469b18bc03258b449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponData: {fileID: 11400000, guid: bb220eb4e918f644799fb2e5baa62c05, type: 2}
 --- !u!4 &1452717254725047
 Transform:
   m_ObjectHideFlags: 0

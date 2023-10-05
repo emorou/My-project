@@ -19,9 +19,9 @@ public class WeaponScriptableObject : ScriptableObject
 
     [SerializeField]
     float cooldownDurationranged;
-    public float CooldownDurationRanged {get => cooldownDurationranged; private set => cooldownDurationranged = value;} 
+    public float CooldownDurationranged {get => cooldownDuration; private set => cooldownDuration = value;} 
 
     [SerializeField]
     float cooldownDurationmelee;
-    public float CooldownDurationMelee {get => cooldownDurationmelee; private set => cooldownDurationmelee = value;} 
+    public float CooldownDuration {get => cooldownDuration; private set => cooldownDuration = value;} 
 }

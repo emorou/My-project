@@ -20,7 +20,7 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
     {
         currentDamage = weaponData.Damage;
         currentSpeed = weaponData.Speed;
-        currentCooldownReduction = weaponData.CooldownDurationRanged;
+        currentCooldownReduction = weaponData.CooldownDuration;
     }
     protected virtual void Start()
     {

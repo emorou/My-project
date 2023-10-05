@@ -21,7 +21,7 @@ public class MeleeWeaponBehaviour : MonoBehaviour
     {
         currentDamage = weaponData.Damage;
         currentSpeed = weaponData.Speed;
-        currentCooldownDuration = weaponData.CooldownDurationMelee;
+        currentCooldownDuration = weaponData.CooldownDuration;
     }
 
     protected virtual void Start()

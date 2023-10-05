@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GarlicController : WeaponController
 {
-    
     protected override void Start()
     {
         base.Start();

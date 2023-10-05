@@ -18,18 +18,19 @@ public class WeaponController : MonoBehaviour
     protected virtual void Start()
     {
         pm = FindObjectOfType<PlayerMovement>();
+        currentCooldown = weaponData.CooldownDuration; //At the start set the current cooldown to be cooldown duration
     }
 
     protected virtual void Update()
     {
-        currentCooldownRanged -= Time.deltaTime;
-        currentCooldownMelee -= Time.deltaTime;
-
-        if (currentCooldownRanged <= 0f && Input.GetMouseButton(1))   //Once the cooldown becomes 0, attack
+        currentCooldown -= Time.deltaTime;
+        if (currentCooldown <= 0f && Input.GetMouseButton(1))   //Once the cooldown becomes 0, attack
         {
             KnifeAttack();
         }
-        else if(currentCooldownMelee <= 0f && Input.GetMouseButton(0))   //Once the cooldown becomes 0, attack
+
+        currentCooldown -= Time.deltaTime;
+        if (currentCooldown <= 0f && Input.GetMouseButton(0))   //Once the cooldown becomes 0, attack
         {
             MidSwordAttack();
         }
@@ -37,12 +38,12 @@ public class WeaponController : MonoBehaviour
 
     protected virtual void MidSwordAttack()
     {
-        currentCooldownMelee = weaponData.CooldownDurationMelee;
+        currentCooldown = weaponData.CooldownDuration;
     }
 
     protected virtual void KnifeAttack()
     {
-        currentCooldownRanged = weaponData.CooldownDurationRanged;
+        currentCooldown = weaponData.CooldownDuration;
     }
 
 

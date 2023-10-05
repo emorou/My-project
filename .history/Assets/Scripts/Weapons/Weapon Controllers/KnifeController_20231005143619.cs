@@ -12,7 +12,7 @@ public class KnifeController : WeaponController
         base.Start();
     }
 
-    protected override void KnifeAttack()
+    protected void KnifeAttack()
     {
         if(currentClip == 0)
         {
@@ -28,7 +28,11 @@ public class KnifeController : WeaponController
         spawnedKnife.GetComponent<KnifeBehaviour>().DirectionChecker(pm.lastMovedVector);   //Reference and set the direction  
         }
     }
+    
+    protected void KnifeAttack()
+    {
 
+    }
     public void Reload()
     {
         int reloadAmount = maxClipSize - currentClip;

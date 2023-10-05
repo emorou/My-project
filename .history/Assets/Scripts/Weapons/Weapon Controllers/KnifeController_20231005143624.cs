@@ -12,7 +12,7 @@ public class KnifeController : WeaponController
         base.Start();
     }
 
-    protected override void KnifeAttack()
+    protected void KnifeAttack()
     {
         if(currentClip == 0)
         {
@@ -29,6 +29,10 @@ public class KnifeController : WeaponController
         }
     }
 
+    protected void MidSwordAttack()
+    {
+
+    }
     public void Reload()
     {
         int reloadAmount = maxClipSize - currentClip;

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GarlicController : WeaponController
 {
+    [SerializeField] private Animator anim;
     
     protected override void Start()
     {
