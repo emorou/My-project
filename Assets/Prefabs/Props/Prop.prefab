@@ -148,6 +148,9 @@ MonoBehaviour:
   - name: Health Potion
     itemPrefab: {fileID: 7109706273383972007, guid: 4005137c2e8bb6b40873df4a33ead722, type: 3}
     dropRate: 100
+  - name: Health Potion
+    itemPrefab: {fileID: 2982530912266475388, guid: 9982a1758e341b1429977747804a7205, type: 3}
+    dropRate: 100
 --- !u!114 &-2430215888154341453
 MonoBehaviour:
   m_ObjectHideFlags: 0
