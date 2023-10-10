@@ -61,11 +61,11 @@ public class InventoryManager : MonoBehaviour
     {
         InventoryItems = itemContent.GetComponentsInChildren<InventoryItemController>();
 
-        // for (int i = 0; i < Items.Count; i++)
-        // {
-        //     InventoryItems[i].AddItem(Items[i]);
+        for (int i = 0; i < Items.Count; i++)
+        {
+            InventoryItems[i].AddItem(Items[i]);
             
-        // }
+        }
     }
 
     public void EnableItemsRemove()

@@ -8,14 +8,11 @@ public class InventoryItemController : MonoBehaviour
 {
     Item item;
     
-    public Button removeButton;
-
+    public Button 
     public void RemoveItem()
     {
         InventoryManager.instance.Remove(item);
-        Destroy(gameObject);
     }
-     
     public void AddItem(Item newItem)
     {
         item = newItem;
@@ -37,6 +34,6 @@ public class InventoryItemController : MonoBehaviour
             break;
         }
         
-        RemoveItem();
+        Destroy(gameObject);
     }
 }

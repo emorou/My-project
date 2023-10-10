@@ -29,15 +29,14 @@ public class InventoryManager : MonoBehaviour
     public void Remove(Item item)
     {
         Items.Remove(item);
-    
     }
 
     public void ListItems()
     {
-        // foreach (Transform item in itemContent)
-        // {
-        //     Destroy(item.gameObject);
-        // }
+        foreach (Transform item in itemContent)
+        {
+            Destroy(item.gameObject);
+        }
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(inventoryItem, itemContent);
@@ -61,11 +60,11 @@ public class InventoryManager : MonoBehaviour
     {
         InventoryItems = itemContent.GetComponentsInChildren<InventoryItemController>();
 
-        // for (int i = 0; i < Items.Count; i++)
-        // {
-        //     InventoryItems[i].AddItem(Items[i]);
+        for (int i = 0; i < Items.Count; i++)
+        {
+            InventoryItems[i].AddItem(Items[i]);
             
-        // }
+        }
     }
 
     public void EnableItemsRemove()
@@ -81,7 +80,7 @@ public class InventoryManager : MonoBehaviour
         {
             foreach (Transform item in itemContent)
             {
-                item.Find("Remove x`Button").gameObject.SetActive(false);
+                item.Find("Remove Button").gameObject.SetActive(false);
             }   
         }
     }

@@ -37,6 +37,6 @@ public class InventoryItemController : MonoBehaviour
             break;
         }
         
-        RemoveItem();
+        Destroy(gameObject);
     }
 }

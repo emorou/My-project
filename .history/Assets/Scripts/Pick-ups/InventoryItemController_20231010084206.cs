@@ -15,7 +15,6 @@ public class InventoryItemController : MonoBehaviour
         InventoryManager.instance.Remove(item);
         Destroy(gameObject);
     }
-     
     public void AddItem(Item newItem)
     {
         item = newItem;
@@ -37,6 +36,6 @@ public class InventoryItemController : MonoBehaviour
             break;
         }
         
-        RemoveItem();
+        Destroy(gameObject);
     }
 }

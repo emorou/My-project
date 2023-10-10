@@ -29,29 +29,22 @@ public class InventoryManager : MonoBehaviour
     public void Remove(Item item)
     {
         Items.Remove(item);
-    
     }
 
     public void ListItems()
     {
-        // foreach (Transform item in itemContent)
-        // {
-        //     Destroy(item.gameObject);
-        // }
+        foreach (Transform item in itemContent)
+        {
+            Destroy(item.gameObject);
+        }
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(inventoryItem, itemContent);
             var itemName = obj.transform.Find("Item Name").GetComponent<TMP_Text>();
             var itemIcon = obj.transform.Find("Item Icon").GetComponent<Image>();
-            var removeButton = obj.transform.Find("Remove Button").gameObject;
 
             itemName.text = item.itemName;
             itemIcon.sprite = item.itemicon;
-
-            if(enableRemove.isOn)
-            {
-                removeButton.gameObject.SetActive(true);
-            }
         }
 
         SetInventoryItems();
@@ -61,11 +54,11 @@ public class InventoryManager : MonoBehaviour
     {
         InventoryItems = itemContent.GetComponentsInChildren<InventoryItemController>();
 
-        // for (int i = 0; i < Items.Count; i++)
-        // {
-        //     InventoryItems[i].AddItem(Items[i]);
+        for (int i = 0; i < Items.Count; i++)
+        {
+            InventoryItems[i].AddItem(Items[i]);
             
-        // }
+        }
     }
 
     public void EnableItemsRemove()
@@ -74,14 +67,14 @@ public class InventoryManager : MonoBehaviour
         {
             foreach (Transform item in itemContent)
             {
-                item.Find("Remove Button").gameObject.SetActive(true);
+                item.Find("RemoveButton").gameObject.SetActive(true);
             }
         }
         else
         {
             foreach (Transform item in itemContent)
             {
-                item.Find("Remove x`Button").gameObject.SetActive(false);
+                item.Find("RemoveButton").gameObject.SetActive(false);
             }   
         }
     }

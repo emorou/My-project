@@ -29,15 +29,36 @@ public class InventoryManager : MonoBehaviour
     public void Remove(Item item)
     {
         Items.Remove(item);
-    
+        // Find the index of the item in the InventoryItems array
+         int itemIndex = -1;
+        for (int i = 0; i < InventoryItems.Length; i++)
+        {
+        if (InventoryItems[i].tem == item)
+        {
+            itemIndex = i;
+            break;
+        }
+    }
+
+    // If the item was found in InventoryItems, remove it
+    if (itemIndex != -1)
+    {
+        Destroy(InventoryItems[itemIndex].gameObject);
+        // Shift the remaining items in the array to fill the gap
+        for (int i = itemIndex + 1; i < InventoryItems.Length; i++)
+        {
+            InventoryItems[i - 1] = InventoryItems[i];
+        }
+        // Resize the array
+        Array.Resize(ref InventoryItems, InventoryItems.Length - 1);
     }
 
     public void ListItems()
     {
-        // foreach (Transform item in itemContent)
-        // {
-        //     Destroy(item.gameObject);
-        // }
+        foreach (Transform item in itemContent)
+        {
+            Destroy(item.gameObject);
+        }
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(inventoryItem, itemContent);
@@ -61,11 +82,11 @@ public class InventoryManager : MonoBehaviour
     {
         InventoryItems = itemContent.GetComponentsInChildren<InventoryItemController>();
 
-        // for (int i = 0; i < Items.Count; i++)
-        // {
-        //     InventoryItems[i].AddItem(Items[i]);
+        for (int i = 0; i < Items.Count; i++)
+        {
+            InventoryItems[i].AddItem(Items[i]);
             
-        // }
+        }
     }
 
     public void EnableItemsRemove()

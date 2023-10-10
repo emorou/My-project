@@ -43,7 +43,7 @@ public class InventoryManager : MonoBehaviour
             GameObject obj = Instantiate(inventoryItem, itemContent);
             var itemName = obj.transform.Find("Item Name").GetComponent<TMP_Text>();
             var itemIcon = obj.transform.Find("Item Icon").GetComponent<Image>();
-            var removeButton = obj.transform.Find("Remove Button").gameObject;
+            var removeButton = obj.transform.Find("Remo ve Button").gameObject;
 
             itemName.text = item.itemName;
             itemIcon.sprite = item.itemicon;
@@ -61,11 +61,11 @@ public class InventoryManager : MonoBehaviour
     {
         InventoryItems = itemContent.GetComponentsInChildren<InventoryItemController>();
 
-        // for (int i = 0; i < Items.Count; i++)
-        // {
-        //     InventoryItems[i].AddItem(Items[i]);
+        for (int i = 0; i < Items.Count; i++)
+        {
+            InventoryItems[i].AddItem(Items[i]);
             
-        // }
+        }
     }
 
     public void EnableItemsRemove()
