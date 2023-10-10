@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 33617110697321976}
   - component: {fileID: -7544343701605521163}
   - component: {fileID: 7257079481604910267}
-  - component: {fileID: 4980487023255332704}
   m_Layer: 0
   m_Name: Health Potion
   m_TagString: Untagged
@@ -99,7 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a842d761ed5e0f4d9c083f8b8d5a072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthToRestore: 100
   item: {fileID: 11400000, guid: c837416aae446f84c852aedfcb4c0205, type: 2}
 --- !u!61 &7257079481604910267
 BoxCollider2D:
@@ -146,16 +144,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 5}
   m_EdgeRadius: 0
---- !u!114 &4980487023255332704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7109706273383972007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e3d0246bf5125e45a24fcbf9be1244e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: c837416aae446f84c852aedfcb4c0205, type: 2}

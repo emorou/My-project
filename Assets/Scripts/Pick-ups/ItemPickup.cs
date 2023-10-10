@@ -9,7 +9,7 @@ public class ItemPickup : MonoBehaviour, ICollectible
     public void Collect()
     {
         InventoryManager.instance.Add(item);
-        InventoryManager.instance.ListItems();
+        //InventoryManager.instance.ListItems();
         Destroy(gameObject);
     }
 }

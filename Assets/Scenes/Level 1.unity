@@ -4332,11 +4332,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8afa0732bcb06e445b44f636772e5603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Items: []
   itemContent: {fileID: 21600789}
   inventoryItem: {fileID: 7814332817846599656, guid: 89fcc923998235648bd3a55d00201aa1, type: 3}
   InventoryItems: []
   enableRemove: {fileID: 512695110}
+  isRemoveMode: 0
 --- !u!4 &2027807886
 Transform:
   m_ObjectHideFlags: 0

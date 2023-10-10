@@ -624,4 +624,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce91805ae3f100a4ca81dab2e82328ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  removeButton: {fileID: 896695420888446295}
+  item: {fileID: 0}
+  itemName: {fileID: 7577564389832017285}
+  itemIcon: {fileID: 2005631672686153590}
+  itemButton: {fileID: 896695420888446295}
+  removeButton: {fileID: 7701264111857712498}
