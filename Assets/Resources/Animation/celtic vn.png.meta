@@ -1,0 +1,1997 @@
+fileFormatVersion: 2
+guid: f41f096bcca49384da180c4b998fdb81
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: celtic vn_0
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 11721
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ed9710de8752e4cab96d9740d16c99
+      internalID: -1923936577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 10497
+        width: 1214
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f2d64d6c375e549a9f043f6d7a1be8
+      internalID: 421288182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_2
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 11721
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e39dd59ba28d547a78612367abf061
+      internalID: -107682556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_3
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 10497
+        width: 1214
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5429aeb5be9c83d46baff627141c569e
+      internalID: 1208647429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_4
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 11721
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851d4aecda500814b8cdf66bf7e51f61
+      internalID: -938422675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_5
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 10497
+        width: 1214
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c41ba1323cf264b9d2e88c01c26790
+      internalID: 1678438093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_6
+      rect:
+        serializedVersion: 2
+        x: 6506
+        y: 11721
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b92b9cc0f335ed4d8b12fa2ca42639b
+      internalID: 1091016934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_7
+      rect:
+        serializedVersion: 2
+        x: 6566
+        y: 10497
+        width: 1214
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b441a756582c8ac4eb323c146a643c76
+      internalID: 1825974378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_8
+      rect:
+        serializedVersion: 2
+        x: 8552
+        y: 11721
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09db3730a622c4642bb8459c3b8fddfa
+      internalID: -534496269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_9
+      rect:
+        serializedVersion: 2
+        x: 8611
+        y: 10497
+        width: 1215
+        height: 1505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9802a423e09841241b934db1ae24015f
+      internalID: -688903844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_10
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 9675
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560784513d8f35b4285e6e2ea181da54
+      internalID: 769619122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 8445
+        width: 1202
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f34a9a86e7c1214686fb10800014efb
+      internalID: 2135582828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_12
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 9675
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc9adca8ca3b4c449f64dac3baa859b
+      internalID: -1671075835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_13
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 8445
+        width: 1198
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ee10b4dce904d4a842afee1c903605
+      internalID: 2093163803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_14
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 9675
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8776c915090d9c479dc0f0da82d4618
+      internalID: -1337318193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_15
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 8445
+        width: 1198
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960693e411fbf5b4380b4cdf6c52750a
+      internalID: 2033841485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_16
+      rect:
+        serializedVersion: 2
+        x: 6506
+        y: 9675
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4546ae92fc889db4788834d91b39987a
+      internalID: 478400217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_17
+      rect:
+        serializedVersion: 2
+        x: 6566
+        y: 8445
+        width: 1193
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311c6f1e49bc18c4da60401defe80672
+      internalID: -561145764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_18
+      rect:
+        serializedVersion: 2
+        x: 8552
+        y: 9675
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c077dafa6122848b472fddc88c254d
+      internalID: 1806444806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_19
+      rect:
+        serializedVersion: 2
+        x: 8611
+        y: 8445
+        width: 1193
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905932a6be0446d439fd113c7b2feea7
+      internalID: -1334690522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_20
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 9648
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2284d6cacb653e04992f03e78c8d91b1
+      internalID: 1583196835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_21
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 9648
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2156b83b12badcf4ea6ecb4252890203
+      internalID: 2059117896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_22
+      rect:
+        serializedVersion: 2
+        x: 5723
+        y: 9648
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43daae96b19e9d644abb1e2b5967e0aa
+      internalID: 685508542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_23
+      rect:
+        serializedVersion: 2
+        x: 7768
+        y: 9648
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbf426093a1b264ea379c5feba44d78
+      internalID: -1209060965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_24
+      rect:
+        serializedVersion: 2
+        x: 9814
+        y: 9648
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb8cce51b164c94fa9f667b770cac6e
+      internalID: 2110656457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_25
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 7623
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0313e7f09e42b9448a696c2adc627ec2
+      internalID: 1850986308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_26
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 6399
+        width: 1191
+        height: 1503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109f0356bdafc5c438f4379367fba59e
+      internalID: 1096385487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_27
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 7624
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e98d48fa25e6034cb1be15a35b0cfe1
+      internalID: -1710089688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_28
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 6399
+        width: 1186
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299bdc7a7b5ac0e41a23fc057067d607
+      internalID: 98527551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_29
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 7624
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4381885b0cd7e447a49f132d1b9b32e
+      internalID: -1207978338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_30
+      rect:
+        serializedVersion: 2
+        x: 4514
+        y: 6399
+        width: 1187
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99758e902f77f243ae02053dbdf1c25
+      internalID: -2140538451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_31
+      rect:
+        serializedVersion: 2
+        x: 6506
+        y: 7623
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf9da90f35e7614199b3c03ad1b4c44
+      internalID: -283166470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_32
+      rect:
+        serializedVersion: 2
+        x: 6566
+        y: 6399
+        width: 1180
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43cb18e7c3187843a7050d01f011872
+      internalID: 2046927159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_33
+      rect:
+        serializedVersion: 2
+        x: 8552
+        y: 7624
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1e4b2834bc2aa4fae9ae0f54734d70
+      internalID: -7423845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_34
+      rect:
+        serializedVersion: 2
+        x: 8611
+        y: 6399
+        width: 1181
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0da3b3ab75ba041a29e50a2e03b123
+      internalID: 1434566833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_35
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 7602
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6356609070a9044daf839c0aa78cc08
+      internalID: -1560260265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_36
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 7602
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5ca5565019b154fb5981c7fa2b7a57
+      internalID: 1130840832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_37
+      rect:
+        serializedVersion: 2
+        x: 5723
+        y: 7602
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1876e0425993ad47a31e5c0a94b804d
+      internalID: 876919544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_38
+      rect:
+        serializedVersion: 2
+        x: 7768
+        y: 7602
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a7ec90c11bb664bbfbf123d7d7247d
+      internalID: -417246047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_39
+      rect:
+        serializedVersion: 2
+        x: 9814
+        y: 7602
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ab8bd915833ed4fbf1c57121ec1ea5
+      internalID: -273840459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_40
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 5577
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3756bfac451de542878b78019c91d4b
+      internalID: 1254320256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_41
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 4353
+        width: 1178
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecce21d7770cccc4084873306a811e69
+      internalID: 1765544079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_42
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 5577
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a848416e37cc0834db509028aa6f2f69
+      internalID: 1410099242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_43
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 4350
+        width: 1172
+        height: 1503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e0e62052b241b49aab58f195733407
+      internalID: -494143476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_44
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 5577
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7600ce0a99cdc7a4ab9ed0ab3ff65b82
+      internalID: 724379123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_45
+      rect:
+        serializedVersion: 2
+        x: 4514
+        y: 4353
+        width: 1173
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbe73d56112dff48ac400cc07df2ab1
+      internalID: 1828594208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_46
+      rect:
+        serializedVersion: 2
+        x: 6506
+        y: 5577
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d5a8ba5e773234b91dd2cd75ff3e5f
+      internalID: -1464869246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_47
+      rect:
+        serializedVersion: 2
+        x: 6563
+        y: 4350
+        width: 1166
+        height: 1502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a9e829bbb4a84499a8b669b9945b84
+      internalID: 367722474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_48
+      rect:
+        serializedVersion: 2
+        x: 8552
+        y: 5577
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d3b4d7034d6a34da4d9f694271044e
+      internalID: -1997571370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_49
+      rect:
+        serializedVersion: 2
+        x: 8611
+        y: 4350
+        width: 1164
+        height: 1501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53826db2482ad4248aef8d47bf2172db
+      internalID: -1096806850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_50
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 5555
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2430f0a3b27c47458bddf9f329d14fe
+      internalID: 636797275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_51
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 5556
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e433b3c25574b4a9720e0acbb8a802
+      internalID: 358734162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_52
+      rect:
+        serializedVersion: 2
+        x: 5723
+        y: 5556
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9772bde3b8630341ba704e3c04f4b66
+      internalID: 1106186833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_53
+      rect:
+        serializedVersion: 2
+        x: 7769
+        y: 5556
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915b614db2a080149a4a7f2274070d43
+      internalID: 1786916468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_54
+      rect:
+        serializedVersion: 2
+        x: 9814
+        y: 5556
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c7264b6c345c849a7c3a7e37e7627b
+      internalID: 1852936207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_55
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 3531
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a847cc428ed444aa13d457a9d5e55d
+      internalID: -642515411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_56
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2301
+        width: 1163
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb06a3ee5b275545a1d7bf999fd3dd9
+      internalID: -1186073588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_57
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 3531
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c841bf94c01de442a8ffc4041afe32c
+      internalID: -2036273782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_58
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 2301
+        width: 1157
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8643be49f3f998c40afa160f5e2f66d5
+      internalID: 1177293130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_59
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 3531
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c768565b12982c47831ccec77ba55a9
+      internalID: 293459875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_60
+      rect:
+        serializedVersion: 2
+        x: 4514
+        y: 2301
+        width: 1163
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366049115e12161409294aaccc2e2bb6
+      internalID: 1750470062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_61
+      rect:
+        serializedVersion: 2
+        x: 6506
+        y: 3531
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10dd02e64e10a149867629d7d020092
+      internalID: -1730646536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_62
+      rect:
+        serializedVersion: 2
+        x: 6563
+        y: 2301
+        width: 1160
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160e1923f4fad3e4393005874a5d39dd
+      internalID: 1101718577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_63
+      rect:
+        serializedVersion: 2
+        x: 8552
+        y: 3531
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc24bada3bf40f241a1087ebf395ec9e
+      internalID: -867913688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_64
+      rect:
+        serializedVersion: 2
+        x: 8611
+        y: 2301
+        width: 1163
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc1e0055a1a6234b8b5c6fe667e3511
+      internalID: -860130025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_65
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 3504
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6886f566fa8ac479623a64744b4493
+      internalID: -1745898734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_66
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 3504
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916da0e5bfb4b93408314ef88f97cbd6
+      internalID: 258230422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_67
+      rect:
+        serializedVersion: 2
+        x: 5723
+        y: 3504
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9aa22bb1b1e53f45828430c00bf5231
+      internalID: -1353687305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_68
+      rect:
+        serializedVersion: 2
+        x: 7768
+        y: 3504
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e9be235e744c04182c7e8289d1dfa2
+      internalID: -329850415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_69
+      rect:
+        serializedVersion: 2
+        x: 9814
+        y: 3504
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3409e60f014c742a2bb690cd428681
+      internalID: -1737685831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_70
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1479
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe258f60646fe9f47a7a800b9a7dd59c
+      internalID: -703979929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_71
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 255
+        width: 1164
+        height: 1494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3bffbb9333f9542b36c3df8c16c31a
+      internalID: -234287057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_72
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1480
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44383b7cca305a34cab7d0e369793f9d
+      internalID: 1912225746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_73
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 255
+        width: 1163
+        height: 1494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5bb885bfa7d53469be47da645ba319
+      internalID: 1081468703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_74
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 1480
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f163cdf55f8b42b4c939bfa2990e9594
+      internalID: 1897531923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_75
+      rect:
+        serializedVersion: 2
+        x: 4514
+        y: 255
+        width: 1164
+        height: 1494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a990a8e4ef49d848829be9d71bae687
+      internalID: -1334470130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_76
+      rect:
+        serializedVersion: 2
+        x: 6506
+        y: 1479
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f3e69382e932d429fee585638164ac
+      internalID: 144545828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_77
+      rect:
+        serializedVersion: 2
+        x: 6561
+        y: 255
+        width: 1168
+        height: 1494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6066e861ca0f54544993f40ab554c7e5
+      internalID: 471364685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_78
+      rect:
+        serializedVersion: 2
+        x: 8552
+        y: 1480
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fbcfa373376094783a1ab947ac8082
+      internalID: -1144075457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_79
+      rect:
+        serializedVersion: 2
+        x: 8611
+        y: 255
+        width: 1169
+        height: 1494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b766e125304c4c541ad0b47fb8a0e754
+      internalID: -41862846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_80
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1458
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593155765c80b184f8f38a9d930aa6f9
+      internalID: -1959978634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_81
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1458
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da66f5b63bd06f94fa4650f7a1de56ce
+      internalID: 1823417315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_82
+      rect:
+        serializedVersion: 2
+        x: 5723
+        y: 1458
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f383344cbf74e214d946aeff61b471d7
+      internalID: 950043687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_83
+      rect:
+        serializedVersion: 2
+        x: 7768
+        y: 1458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd6183f4328264488ad276e73a0bd54
+      internalID: -1339782240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celtic vn_84
+      rect:
+        serializedVersion: 2
+        x: 9814
+        y: 1458
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b73051198133c847b80686edeb5b48d
+      internalID: 105574561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      celtic vn_0: -1923936577
+      celtic vn_1: 421288182
+      celtic vn_10: 769619122
+      celtic vn_11: 2135582828
+      celtic vn_12: -1671075835
+      celtic vn_13: 2093163803
+      celtic vn_14: -1337318193
+      celtic vn_15: 2033841485
+      celtic vn_16: 478400217
+      celtic vn_17: -561145764
+      celtic vn_18: 1806444806
+      celtic vn_19: -1334690522
+      celtic vn_2: -107682556
+      celtic vn_20: 1583196835
+      celtic vn_21: 2059117896
+      celtic vn_22: 685508542
+      celtic vn_23: -1209060965
+      celtic vn_24: 2110656457
+      celtic vn_25: 1850986308
+      celtic vn_26: 1096385487
+      celtic vn_27: -1710089688
+      celtic vn_28: 98527551
+      celtic vn_29: -1207978338
+      celtic vn_3: 1208647429
+      celtic vn_30: -2140538451
+      celtic vn_31: -283166470
+      celtic vn_32: 2046927159
+      celtic vn_33: -7423845
+      celtic vn_34: 1434566833
+      celtic vn_35: -1560260265
+      celtic vn_36: 1130840832
+      celtic vn_37: 876919544
+      celtic vn_38: -417246047
+      celtic vn_39: -273840459
+      celtic vn_4: -938422675
+      celtic vn_40: 1254320256
+      celtic vn_41: 1765544079
+      celtic vn_42: 1410099242
+      celtic vn_43: -494143476
+      celtic vn_44: 724379123
+      celtic vn_45: 1828594208
+      celtic vn_46: -1464869246
+      celtic vn_47: 367722474
+      celtic vn_48: -1997571370
+      celtic vn_49: -1096806850
+      celtic vn_5: 1678438093
+      celtic vn_50: 636797275
+      celtic vn_51: 358734162
+      celtic vn_52: 1106186833
+      celtic vn_53: 1786916468
+      celtic vn_54: 1852936207
+      celtic vn_55: -642515411
+      celtic vn_56: -1186073588
+      celtic vn_57: -2036273782
+      celtic vn_58: 1177293130
+      celtic vn_59: 293459875
+      celtic vn_6: 1091016934
+      celtic vn_60: 1750470062
+      celtic vn_61: -1730646536
+      celtic vn_62: 1101718577
+      celtic vn_63: -867913688
+      celtic vn_64: -860130025
+      celtic vn_65: -1745898734
+      celtic vn_66: 258230422
+      celtic vn_67: -1353687305
+      celtic vn_68: -329850415
+      celtic vn_69: -1737685831
+      celtic vn_7: 1825974378
+      celtic vn_70: -703979929
+      celtic vn_71: -234287057
+      celtic vn_72: 1912225746
+      celtic vn_73: 1081468703
+      celtic vn_74: 1897531923
+      celtic vn_75: -1334470130
+      celtic vn_76: 144545828
+      celtic vn_77: 471364685
+      celtic vn_78: -1144075457
+      celtic vn_79: -41862846
+      celtic vn_8: -534496269
+      celtic vn_80: -1959978634
+      celtic vn_81: 1823417315
+      celtic vn_82: 950043687
+      celtic vn_83: -1339782240
+      celtic vn_84: 105574561
+      celtic vn_9: -688903844
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
