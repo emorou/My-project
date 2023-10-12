@@ -106,6 +106,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,12 +126,12 @@ TextureImporter:
       name: celtic idle 1_0
       rect:
         serializedVersion: 2
-        x: 643
+        x: 557
         y: 12661
-        width: 1285
+        width: 1378
         height: 1757
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +147,12 @@ TextureImporter:
       name: celtic idle 1_1
       rect:
         serializedVersion: 2
-        x: 3121
-        y: 12661
-        width: 1288
+        x: 3072
+        y: 12681
+        width: 1378
         height: 1757
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +168,12 @@ TextureImporter:
       name: celtic idle 1_2
       rect:
         serializedVersion: 2
-        x: 5604
+        x: 5653
         y: 12661
-        width: 1286
-        height: 1756
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,10 +191,10 @@ TextureImporter:
         serializedVersion: 2
         x: 8082
         y: 12660
-        width: 1289
-        height: 1755
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,10 +212,10 @@ TextureImporter:
         serializedVersion: 2
         x: 10566
         y: 12660
-        width: 1285
-        height: 1751
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,10 +233,10 @@ TextureImporter:
         serializedVersion: 2
         x: 643
         y: 10183
-        width: 1291
-        height: 1751
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,12 +252,12 @@ TextureImporter:
       name: celtic idle 1_6
       rect:
         serializedVersion: 2
-        x: 3120
-        y: 10183
-        width: 1293
-        height: 1751
+        x: 3051
+        y: 10174
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,12 +273,12 @@ TextureImporter:
       name: celtic idle 1_7
       rect:
         serializedVersion: 2
-        x: 5604
-        y: 10183
-        width: 1292
-        height: 1751
+        x: 5537
+        y: 10132
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -281,12 +294,12 @@ TextureImporter:
       name: celtic idle 1_8
       rect:
         serializedVersion: 2
-        x: 8082
-        y: 10183
-        width: 1292
-        height: 1750
+        x: 8002
+        y: 10194
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,12 +315,12 @@ TextureImporter:
       name: celtic idle 1_9
       rect:
         serializedVersion: 2
-        x: 10566
+        x: 10509
         y: 10183
-        width: 1292
-        height: 1750
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -325,10 +338,10 @@ TextureImporter:
         serializedVersion: 2
         x: 643
         y: 7700
-        width: 1293
-        height: 1749
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -346,10 +359,10 @@ TextureImporter:
         serializedVersion: 2
         x: 3120
         y: 7699
-        width: 1300
-        height: 1750
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -365,12 +378,12 @@ TextureImporter:
       name: celtic idle 1_12
       rect:
         serializedVersion: 2
-        x: 5604
+        x: 5624
         y: 7702
-        width: 1293
-        height: 1747
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -388,10 +401,10 @@ TextureImporter:
         serializedVersion: 2
         x: 8082
         y: 7699
-        width: 1299
-        height: 1750
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -409,10 +422,10 @@ TextureImporter:
         serializedVersion: 2
         x: 10566
         y: 7699
-        width: 1293
-        height: 1750
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -428,12 +441,12 @@ TextureImporter:
       name: celtic idle 1_15
       rect:
         serializedVersion: 2
-        x: 643
-        y: 5220
-        width: 1300
-        height: 1751
+        x: 623
+        y: 5243
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -449,12 +462,12 @@ TextureImporter:
       name: celtic idle 1_16
       rect:
         serializedVersion: 2
-        x: 3120
-        y: 5220
-        width: 1300
-        height: 1748
+        x: 3045
+        y: 5213
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,12 +483,12 @@ TextureImporter:
       name: celtic idle 1_17
       rect:
         serializedVersion: 2
-        x: 5604
+        x: 5560
         y: 5220
-        width: 1300
-        height: 1744
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 1378
+        height: 1775
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48208785}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -493,10 +506,10 @@ TextureImporter:
         serializedVersion: 2
         x: 8082
         y: 5220
-        width: 1300
-        height: 1744
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -514,10 +527,10 @@ TextureImporter:
         serializedVersion: 2
         x: 10566
         y: 5220
-        width: 1300
-        height: 1744
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -535,10 +548,10 @@ TextureImporter:
         serializedVersion: 2
         x: 643
         y: 2743
-        width: 1300
-        height: 1743
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -556,10 +569,10 @@ TextureImporter:
         serializedVersion: 2
         x: 3120
         y: 2743
-        width: 1307
-        height: 1743
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -575,12 +588,12 @@ TextureImporter:
       name: celtic idle 1_22
       rect:
         serializedVersion: 2
-        x: 5604
-        y: 2743
-        width: 1301
-        height: 1743
+        x: 5546
+        y: 2747
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -598,10 +611,10 @@ TextureImporter:
         serializedVersion: 2
         x: 8082
         y: 2743
-        width: 1306
-        height: 1743
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -619,10 +632,10 @@ TextureImporter:
         serializedVersion: 2
         x: 10566
         y: 2743
-        width: 1300
-        height: 1742
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -638,12 +651,12 @@ TextureImporter:
       name: celtic idle 1_25
       rect:
         serializedVersion: 2
-        x: 643
-        y: 259
-        width: 1307
-        height: 1743
+        x: 586
+        y: 288
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -661,10 +674,10 @@ TextureImporter:
         serializedVersion: 2
         x: 3120
         y: 259
-        width: 1307
-        height: 1743
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -682,10 +695,10 @@ TextureImporter:
         serializedVersion: 2
         x: 5604
         y: 259
-        width: 1307
-        height: 1743
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -703,10 +716,10 @@ TextureImporter:
         serializedVersion: 2
         x: 8082
         y: 259
-        width: 1307
-        height: 1743
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -724,10 +737,10 @@ TextureImporter:
         serializedVersion: 2
         x: 10566
         y: 258
-        width: 1300
-        height: 1743
+        width: 1378
+        height: 1775
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
