@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4419252867633688535}
   - component: {fileID: 3072557954424119601}
-  - component: {fileID: 7512675849065833721}
   - component: {fileID: 7138279770244434201}
+  - component: {fileID: -4032086111988711875}
   m_Layer: 0
   m_Name: Ammo Box
   m_TagString: Untagged
@@ -86,19 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7512675849065833721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2982530912266475388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe2718048ffdefd439b0ff73722106d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ammoToRestore: 5
 --- !u!61 &7138279770244434201
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,3 +131,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 5}
   m_EdgeRadius: 0
+--- !u!114 &-4032086111988711875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2982530912266475388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a842d761ed5e0f4d9c083f8b8d5a072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: c723f3e61d98afb4fb0f28721a65afac, type: 2}
