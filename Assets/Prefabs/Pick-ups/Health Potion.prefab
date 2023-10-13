@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: c837416aae446f84c852aedfcb4c0205, type: 2}
+  itemPrefab: {fileID: 7109706273383972007}
 --- !u!61 &7257079481604910267
 BoxCollider2D:
   m_ObjectHideFlags: 0
