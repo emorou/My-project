@@ -5,8 +5,12 @@ using UnityEngine;
 public class HealthPotion : MonoBehaviour, ICollectible
 {
     public int healthToRestore;
+<<<<<<< Updated upstream
 
     public void Collect()
+=======
+     public void Collect()
+>>>>>>> Stashed changes
     {
         PlayerStats player = FindObjectOfType<PlayerStats>();
         player.RestoreHealth(healthToRestore);

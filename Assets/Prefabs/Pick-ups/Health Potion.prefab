@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8503331321146796943}
   - component: {fileID: 33617110697321976}
-  - component: {fileID: -7544343701605521163}
   - component: {fileID: 7257079481604910267}
+  - component: {fileID: -4247157553101836832}
   m_Layer: 0
   m_Name: Health Potion
   m_TagString: Untagged
@@ -86,6 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 --- !u!114 &-7544343701605521163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,6 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthToRestore: 100
+=======
+>>>>>>> Stashed changes
 --- !u!61 &7257079481604910267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,3 +147,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 5}
   m_EdgeRadius: 0
+--- !u!114 &-4247157553101836832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7109706273383972007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4272710bf30a2f04b8a559d4d1703914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthToRestore: 100
