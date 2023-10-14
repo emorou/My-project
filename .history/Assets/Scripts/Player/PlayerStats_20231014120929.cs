@@ -6,8 +6,8 @@ using TMPro;
 public class PlayerStats : MonoBehaviour
 {
     public CharacterScriptableObject characterData;
-    public float currentHealth;
-    public float currentMoveSpeed;
+    float currentHealth;
+    float currentMoveSpeed;
 
     [Header("I-Frames")]
     public float invincibilityDuration;
@@ -16,21 +16,19 @@ public class PlayerStats : MonoBehaviour
 
     public int gold;
 
+    public TMP_Text goldText;
+    public TMP_Text levelText;
+    public TMP_Text healthText;
+    public TMP_Text bulletText;
+
     public static PlayerStats Instance; 
-
-    private PlayerLevel playerLevel;
-
-    public int experience;
-    public int level;
-    public int experienceCap;
 
     void Start()
     {
-        playerLevel = FindObjectOfType<PlayerLevel>();
-        experience = playerLevel.experience;
-        level = playerLevel.level;
-        experienceCap = playerLevel.experienceCap;
+        level = FindObjectOfType<PlayerLevel>();
+        knifeController = FindObjectOfType<KnifeController>();
     }
+
     public void IncreaseGold(int amount)
     {
         gold += amount; 

@@ -20,16 +20,9 @@ public class PlayerStats : MonoBehaviour
 
     private PlayerLevel playerLevel;
 
-    public int experience;
-    public int level;
-    public int experienceCap;
-
     void Start()
     {
         playerLevel = FindObjectOfType<PlayerLevel>();
-        experience = playerLevel.experience;
-        level = playerLevel.level;
-        experienceCap = playerLevel.experienceCap;
     }
     public void IncreaseGold(int amount)
     {

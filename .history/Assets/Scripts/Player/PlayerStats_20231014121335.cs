@@ -29,7 +29,7 @@ public class PlayerStats : MonoBehaviour
         playerLevel = FindObjectOfType<PlayerLevel>();
         experience = playerLevel.experience;
         level = playerLevel.level;
-        experienceCap = playerLevel.experienceCap;
+        experienceCap = playerLevel.
     }
     public void IncreaseGold(int amount)
     {
