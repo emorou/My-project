@@ -1,0 +1,40 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+using System.IO;
+
+public class FileDataHandler
+{
+   private string dataDirPath = "";
+
+   private string dataFileName = "";
+
+   public FileDataHandler(string dataDirPath, string dataFileName)
+   {
+    this.dataDirPath = dataDirPath;
+    this.dataFileName = dataFileName;
+   }
+
+   public GameData Load()
+   {
+
+   }
+
+   public void Save(GameData data)
+    {
+        // path.combine = account different OS' having different path separators
+        string fullPath = Path.Combine(dataDirPath, dataFileName);
+        try
+        {
+
+        }
+        catch(Exception /// <summary>
+        /// This function is called when the object becomes enabled and active.
+        /// </summary>
+        void OnEnable()
+        {
+            
+        }
+    }
+}
