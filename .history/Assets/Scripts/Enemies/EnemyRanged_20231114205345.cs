@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyRanged : MonoBehaviour
 {
-    public EnemyScriptableObjects enemyData;
+     public EnemyScriptableObjects enemyData;
     Transform player;
 
     void Start()

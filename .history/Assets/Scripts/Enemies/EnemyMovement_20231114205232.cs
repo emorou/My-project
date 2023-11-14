@@ -6,7 +6,7 @@ public class EnemyMovement : MonoBehaviour
 {
     public EnemyScriptableObjects enemyData;
     Transform player;
-
+    \
     void Start()
     {
         player = FindObjectOfType<PlayerMovement>().transform;
