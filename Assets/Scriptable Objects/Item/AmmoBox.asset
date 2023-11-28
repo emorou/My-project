@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 2
   itemName: Ammo Box
   value: 5
-  itemIcon: {fileID: 21300000, guid: 696f5d26a3b274e4383adcfdd39bede8, type: 3}
+  itemIcon: {fileID: 21300000, guid: af400ae1be92f8344b7f300d478e1800, type: 3}
   itemType: 1
-  quantity: 0
+  quantity: 1

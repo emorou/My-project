@@ -1,0 +1,1 @@
+VAR safeTutorial_done = ""
