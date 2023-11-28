@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d717995b4ff72e4da9296eaa7ac1c47, type: 3}
   m_Name: Bagas
   m_EditorClassIdentifier: 
-  MoveSpeed: 2
+  MoveSpeed: 1
   MaxHealth: 10
   Damage: 30
