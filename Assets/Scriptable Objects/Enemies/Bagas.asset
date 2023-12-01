@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Bagas
   m_EditorClassIdentifier: 
   MoveSpeed: 1
-  MaxHealth: 10
+  MaxHealth: 200
   Damage: 30
