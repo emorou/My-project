@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8364d38cb0897774db1f4eac81e5410a, type: 3}
   m_Name: Rudi
   m_EditorClassIdentifier: 
-  maxHealth: 1000
-  moveSpeed: 5
+  maxHealth: 100
+  moveSpeed: 8

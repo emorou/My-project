@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d717995b4ff72e4da9296eaa7ac1c47, type: 3}
   m_Name: Boar
   m_EditorClassIdentifier: 
-  MoveSpeed: 4
-  MaxHealth: 10
-  Damage: 10
+  MoveSpeed: 3
+  MaxHealth: 65
+  Damage: 7

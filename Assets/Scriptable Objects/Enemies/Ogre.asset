@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d717995b4ff72e4da9296eaa7ac1c47, type: 3}
   m_Name: Ogre
   m_EditorClassIdentifier: 
-  MoveSpeed: 0.5
-  MaxHealth: 200
-  Damage: 50
+  MoveSpeed: 2
+  MaxHealth: 190
+  Damage: 27
