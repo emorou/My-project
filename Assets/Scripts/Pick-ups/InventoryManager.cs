@@ -99,7 +99,7 @@ public class InventoryManager : MonoBehaviour
             }
         }
     }
-    void UpdateQuantityText(Item item)
+    public void UpdateQuantityText(Item item)
     {
         InventoryItemController itemController = GetItemControllerByItem(item);
         if (itemController != null)

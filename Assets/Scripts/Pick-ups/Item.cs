@@ -12,7 +12,7 @@ public class Item : ScriptableObject
     public Sprite itemIcon;
     public ItemType itemType;
     public int quantity;
-
+    public int itemCost;
     public enum ItemType
     {
         Potion,

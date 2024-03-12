@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Health Potion
   m_EditorClassIdentifier: 
   id: 0
-  itemName: Potion
+  itemName: Health Potion
   value: 100
   itemIcon: {fileID: 21300000, guid: 12074a12303e4c747bd198cd4695a8eb, type: 3}
   itemType: 0
   quantity: 1
+  itemCost: 100
