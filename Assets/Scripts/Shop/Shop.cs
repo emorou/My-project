@@ -18,10 +18,6 @@ public class Shop : MonoBehaviour
             InventoryManager.instance.Add(item);
             PlayerStats.Instance.gold -= goldCost;
         }
-        else
-        {
-            ShopManager.Instance.ShowWarningSign();
-        }
     }
 
     public void Start()

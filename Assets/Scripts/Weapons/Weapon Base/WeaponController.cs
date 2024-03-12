@@ -28,17 +28,17 @@ public class WeaponController : MonoBehaviour
         currentCooldownRanged -= Time.deltaTime;
         currentCooldownMelee -= Time.deltaTime;
 
-        if (!DialogueManager.instance.dialogueIsPlaying && currentCooldownRanged <= 0f && Input.GetMouseButton(1) && !Pause.instance.GameIsPaused)   //Once the cooldown becomes 0, attack
+        if (!DialogueManager.instance.dialogueIsPlaying && currentCooldownRanged <= 0f && Input.GetMouseButton(1) && !Pause.instance.GameIsPaused && !ShopManager.Instance.isShopAppear)   //Once the cooldown becomes 0, attack
         {
             AudioManager.instance.PlaySFX("Suara Pistol");
             KnifeAttack();
         }
-        else if (!DialogueManager.instance.dialogueIsPlaying && currentCooldownMelee <= 0f && Input.GetMouseButton(0) && !Pause.instance.GameIsPaused)   //Once the cooldown becomes 0, attack
+        else if (!DialogueManager.instance.dialogueIsPlaying && currentCooldownMelee <= 0f && Input.GetMouseButton(0) && !Pause.instance.GameIsPaused && !ShopManager.Instance.isShopAppear)   //Once the cooldown becomes 0, attack
         {
             MidSwordAttack();
         }
 
-        if (!DialogueManager.instance.dialogueIsPlaying && knifeController.currentClip == 0 || Input.GetKeyDown(KeyCode.R) && !Pause.instance.GameIsPaused)
+        if (!DialogueManager.instance.dialogueIsPlaying && knifeController.currentClip == 0 || Input.GetKeyDown(KeyCode.R) && !Pause.instance.GameIsPaused && !ShopManager.Instance.isShopAppear)
         {
             knifeController.Reload();
         }

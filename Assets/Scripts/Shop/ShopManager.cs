@@ -6,9 +6,10 @@ public class ShopManager : MonoBehaviour
 {
     public Item[] items;
     public ShopTemplate[] shopPanels;
-    public GameObject warningSign;
     public static ShopManager Instance;
     public Button[] purchaseButton;
+    public GameObject shopUI;
+    public bool isShopAppear;
     private void Awake()
     {
         Instance = this;
@@ -19,12 +20,18 @@ public class ShopManager : MonoBehaviour
         LoadItems();
         CheckPurchaseable();
     }
-    
-    public void ShowWarningSign()
-    {
-        warningSign.SetActive(true);
-    }
 
+    public void Update()
+    {
+        if(shopUI.activeSelf)
+        {
+            isShopAppear = true;
+        }
+        else
+        {
+            isShopAppear = false;
+        }
+    }
     public void LoadItems()
     {
         for (int i = 0; i < items.Length; i++)

@@ -14,7 +14,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (timeUntilMelee <= 0f)
         {
-            if (Input.GetMouseButtonDown(0) && !DialogueManager.instance.dialogueIsPlaying)
+            if (Input.GetMouseButtonDown(0) && !DialogueManager.instance.dialogueIsPlaying && !ShopManager.Instance.isShopAppear)
             {
                 AudioManager.instance.PlaySFX("Suara Pedang");
                 anim.SetTrigger("Attack");
