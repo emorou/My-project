@@ -15,7 +15,19 @@ public class MissionWaypoint : MonoBehaviour
     // To adjust the position of the icon
     public Vector3 offset;
 
+    public GameObject waypoint;
+    public bool canWaypoint;
     private void Update()
+    {
+        if(DialogueManager.instance.dialogueIsPlaying || Vector3.Distance(target.position, transform.position) <= 15)
+        canWaypoint = false;
+        else
+        canWaypoint = true;
+
+        ActivateWaypoint();
+    }
+
+    public void WaypointMarking()
     {
         // Giving limits to the icon so it sticks on the screen
         // Below calculations witht the assumption that the icon anchor point is in the middle
@@ -56,5 +68,16 @@ public class MissionWaypoint : MonoBehaviour
         img.transform.position = pos;
         // Change the meter text to the distance with the meter unit 'm'
         meter.text = ((int)Vector3.Distance(target.position, transform.position)).ToString() + "m";
+    }
+
+    public void ActivateWaypoint()
+    {
+        if(canWaypoint)
+        {
+        waypoint.SetActive(true);
+        WaypointMarking();
+        }
+        else
+        waypoint.SetActive(false);
     }
 }
