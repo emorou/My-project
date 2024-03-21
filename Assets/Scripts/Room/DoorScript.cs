@@ -1,16 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
     [SerializeField] Transform posToGo;
+    [SerializeField] Transform middlePoint;
     [SerializeField] GameObject keyTxt;
+    [SerializeField] GameObject cameraBounds;
     [SerializeField] private EnemySpawner enemySpawner;
     bool playerDetected;
     GameObject playerGO;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +26,16 @@ public class DoorScript : MonoBehaviour
                 enemySpawner.ableToTeleport = false;
                 playerGO.transform.position = posToGo.position;
                 playerDetected = false;
+                MovecameraBounds(middlePoint.position); // Move cameraBounds to middlePoint
             }
+        }
+    }
+    
+    private void MovecameraBounds(Vector3 targetPosition)
+    {
+        if (cameraBounds != null)
+        {
+            cameraBounds.transform.position = targetPosition;
         }
     }
 
