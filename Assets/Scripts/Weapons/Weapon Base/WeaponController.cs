@@ -47,6 +47,7 @@ public class WeaponController : MonoBehaviour
     protected virtual void MidSwordAttack()
     {
         currentCooldownMelee = weaponData.CooldownDurationMelee;
+        
     }
 
     protected virtual void KnifeAttack()

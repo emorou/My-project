@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed;
-    [HideInInspector]
     public Vector2 moveDir;
     [HideInInspector]
     public float lastHorizontalVector;

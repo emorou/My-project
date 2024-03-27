@@ -47,7 +47,7 @@ public class StageSelection : MonoBehaviour
     private void OnTriggerExit2D(Collider2D col)
     {
         playerDetected = false;
-        if (readyButton != null)
+        if (readyButton.activeSelf && col.CompareTag("Player"))
         {
             readyButton.SetActive(false);
         }

@@ -60,7 +60,7 @@ public class StageManager : MonoBehaviour
       
         DataPersistenceManager.instance.SaveGame();
        
-        SceneManager.LoadSceneAsync("Level 1");
+        SceneManager.LoadSceneAsync("Level 1 New");
         
     }
 

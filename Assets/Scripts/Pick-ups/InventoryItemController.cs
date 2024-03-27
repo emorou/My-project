@@ -4,18 +4,16 @@ using TMPro;
 
 public class InventoryItemController : MonoBehaviour
 {
-    private Item item;
+    public Item item;
     [SerializeField] private TextMeshProUGUI itemName;
     [SerializeField] private Image itemIcon;
     public GameObject removeButton;
-    public int quantity;
     public TMP_Text quantityText;
 
     private void Update()
     {
         if (InventoryManager.instance.isRemoveMode) removeButton.SetActive(true);
         else removeButton.SetActive(false);
-        quantity = item.quantity;
     }
     public Item Item
     {
@@ -24,7 +22,9 @@ public class InventoryItemController : MonoBehaviour
 
     public void RemoveItem()
     {
-        InventoryManager.instance.Remove(item);
+        item.quantity = 0;
+        gameObject.SetActive(false);
+        // InventoryManager.instance.Remove(item);
         // Destroy(gameObject);
     }
 
@@ -33,6 +33,14 @@ public class InventoryItemController : MonoBehaviour
         item = newItem;
         itemName.text = item.itemName;
         itemIcon.sprite = item.itemIcon;
+        quantityText.text = item.quantity.ToString();
+
+        if (item.quantity <= 0)
+                {
+                    gameObject.SetActive(false);
+                }
+                else
+        gameObject.SetActive(true);
     }
 
     public void UseItem()
@@ -41,33 +49,27 @@ public class InventoryItemController : MonoBehaviour
         {
             case Item.ItemType.Potion:
                 PlayerStats.Instance.RestoreHealth(item.value);
-                quantityText.text = quantity.ToString();
-                quantity--;
-                if (quantity <= 0)
-                {
-                    Destroy(gameObject);
-                }
+                quantityText.text = item.quantity.ToString();
+                item.quantity--;
+                
                 break;
 
             case Item.ItemType.Ammo:
                 KnifeController.instance.RestoreAmmo(item.value);
-                quantity--;
-                if (quantity <= 0)
-                {
-                    Destroy(gameObject);
-                }
+                item.quantity--;
                 break;
 
             default:
                 break;
         }
-        RemoveItem();
+        SetItem(item);
+        // RemoveItem();
     }
 
-    public void UpdateQuantityText()
-    {
-        quantityText.text = item.quantity.ToString();
-    }
+    // public void UpdateQuantityText()
+    // {
+    //     quantityText.text = item.quantity.ToString();
+    // }
     public Item GetItem()
     {
         return item;
