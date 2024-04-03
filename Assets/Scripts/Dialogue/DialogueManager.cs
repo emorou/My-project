@@ -143,11 +143,11 @@ public class DialogueManager : MonoBehaviour
 
         foreach (char letter in line.ToCharArray())
         {
-            // if(Input.GetKeyDown(KeyCode.F))
-            // {
-            //     dialogueText.maxVisibleCharacters = line.Length;
-            //     break;
-            // }
+            if(Input.GetKey(KeyCode.F))
+            {
+                dialogueText.maxVisibleCharacters = line.Length;
+                break;
+            }
             if(letter == '<' || isAddingRichTextTag)
             {
                 isAddingRichTextTag = true;

@@ -5693,13 +5693,13 @@ RectTransform:
   - {fileID: 1065939578}
   - {fileID: 1697419353}
   - {fileID: 1313652148}
-  - {fileID: 1900839607}
   - {fileID: 163001129}
   - {fileID: 55904640}
   - {fileID: 1071750987}
   - {fileID: 1246940485}
   - {fileID: 1162414061}
   - {fileID: 1937136455}
+  - {fileID: 1900839607}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

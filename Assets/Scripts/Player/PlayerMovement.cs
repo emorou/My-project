@@ -95,7 +95,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (moveX != 0 && moveY == 0 && !DialogueManager.instance.dialogueIsPlaying)
         {
-            AudioManager.instance.PlayMusic("Suara Dash");
+            AudioManager.instance.PlaySFX("Suara Dash");
             Physics2D.IgnoreLayerCollision(6, 7, true);
             canDash = false;
             isDashing = true;
@@ -110,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (moveY != 0 && moveX == 0 && !DialogueManager.instance.dialogueIsPlaying)
         {
-            AudioManager.instance.PlayMusic("Suara Dash");
+            AudioManager.instance.PlaySFX("Suara Dash");
             Physics2D.IgnoreLayerCollision(6, 7, true);
             canDash = false;
             isDashing = true;
@@ -125,7 +125,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (moveY != 0 && moveX != 0 && !DialogueManager.instance.dialogueIsPlaying)
         {
-            AudioManager.instance.PlayMusic("Suara Dash");
+            AudioManager.instance.PlaySFX("Suara Dash");
             Physics2D.IgnoreLayerCollision(6, 7, true);
             canDash = false;
             isDashing = true;
