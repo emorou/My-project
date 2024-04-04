@@ -26,6 +26,7 @@ public class SwordController : WeaponController
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
         // Trigger the attack animation
+        AudioManager.instance.PlaySFX("Suara Pedang");
         anim.SetTrigger("Attack");
     }
 

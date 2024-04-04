@@ -55,7 +55,13 @@ public class AudioManager : MonoBehaviour
             sfxSource.PlayOneShot(s.clip);
         }
     }
+    
+    public void StopMusic()
+    {
+        musicSource.Stop();
+    }
 
+    
     public void ToggleMusic()
     {
         musicSource.mute = !musicSource.mute;

@@ -35,6 +35,7 @@ public class WeaponController : MonoBehaviour
         }
         else if (!DialogueManager.instance.dialogueIsPlaying && currentCooldownMelee <= 0f && Input.GetMouseButton(0) && !Pause.instance.GameIsPaused && !ShopManager.Instance.isShopAppear)   //Once the cooldown becomes 0, attack
         {
+            AudioManager.instance.PlaySFX("Suara Pedang");
             MidSwordAttack();
         }
 
@@ -47,7 +48,6 @@ public class WeaponController : MonoBehaviour
     protected virtual void MidSwordAttack()
     {
         currentCooldownMelee = weaponData.CooldownDurationMelee;
-        
     }
 
     protected virtual void KnifeAttack()

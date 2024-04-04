@@ -1,11 +1,6 @@
-    using System.Diagnostics.Contracts;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-
 public class InventoryManager : MonoBehaviour, IDataPersistence
 {
     public static InventoryManager instance;

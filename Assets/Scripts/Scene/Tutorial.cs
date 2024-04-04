@@ -76,6 +76,7 @@ public class Tutorial : MonoBehaviour
 
         if(isSafeZoneTutorialDone)
         {
+            // AudioManager.instance.PlayMusic("Boss Music");
             Chamber1Tutorial();
         }
 
@@ -245,6 +246,7 @@ public class Tutorial : MonoBehaviour
 
     void BossRoomTutorial()
     {
+        // AudioManager.instance.PlayMusic("Boss Music");
         boss.SetActive(true);
         Transform bossOgre = boss.transform.Find("enemy boss");
         warpGate6.SetActive(false);
