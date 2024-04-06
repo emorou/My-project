@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: ff2f9150c68ce664d96142b09090b6d7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Celtic Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408.6667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ebefda6a3160a4c86dd6a05156391e
+      internalID: 553434831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 408.6667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e611d16906f44fa45b39c0803e28fa9c
+      internalID: -25429460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 408.6667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c39db3e641aebe4eb5dcc5bb4e689c0
+      internalID: -1154427234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 408.6667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e3e7f0e7024b646ac079c2a3fb2e67
+      internalID: 627897140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 408.6667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf4519ec290d6f40a3bf8c859902e07
+      internalID: 1964663714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 408.6667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99321cd2d0da5a4f9b7299fba32910d
+      internalID: -1097841535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 408.6667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d4c3248d96a8346bb088c9bb69fbc3
+      internalID: -422773371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 408.6667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9805bf26e3a42bd42b42fbeadd17c287
+      internalID: 387215236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 408.6667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0befdecb5ef7d8d4e858b4a7cd5d9991
+      internalID: 1785714127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 408.6667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae61be9edb1a134499ff128cdab8e93
+      internalID: 699103050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204.66667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e12da57aed5b04a80945e1639a062e
+      internalID: 637993029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 204.66667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc4c67b892ce084fb7b997986bac22d
+      internalID: -11689903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 204.66667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141486ff87f62f54480c4dcaf87d9b41
+      internalID: 747769790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 204.66667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c457e24b094a394ebd6421161c43c44
+      internalID: 266852710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 204.66667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3174c4bbb013a4689615cd86c22878
+      internalID: -45622521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 204.66667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0471a8a3974832440b0fe79d3e2451d4
+      internalID: -1907839310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 204.66667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e0bcd11f8d4d84095574ed81852761
+      internalID: 1383657147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 204.66667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e606d38e861b0439f7aeb8dc60ecaf
+      internalID: 1991820638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 204.66667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9360bcdeca263da459c372c99bc0f6a4
+      internalID: 884068377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 204.66667
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67662715b74564b40aeae9b2f5e02703
+      internalID: 206381746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.66667175
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253215b0ae8523340a9932411f506226
+      internalID: 1828509457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0.66667175
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27953999f8e3dbc46929a7704f1a2a32
+      internalID: 826643423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0.66667175
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2cc89999db0344b9df15e3a0c356bf
+      internalID: -272375284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0.66667175
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bc932fa9c3d8a40bd4577fd0666b8e
+      internalID: 1214847717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0.66667175
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ccf2108e4974a47aef6f6a0c7940dd
+      internalID: -639289761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0.66667175
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97567ecea5355ea41b828bb972001903
+      internalID: 1489754877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0.66667175
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6b0b23e1ba7dc4ea92abb405a83ef9
+      internalID: 923615658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0.66667175
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f40c3e72a020e4e948236ae0618ea4
+      internalID: -149867222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0.66667175
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f5f09e33387c44ab60e3ba82194630
+      internalID: -1274529040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0.66667175
+        width: 192
+        height: 204.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff3c458faaef38439ab2ac7d5f16fc3
+      internalID: 1847701233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Celtic Spritesheet_0: 553434831
+      Celtic Spritesheet_1: -25429460
+      Celtic Spritesheet_10: 637993029
+      Celtic Spritesheet_11: -11689903
+      Celtic Spritesheet_12: 747769790
+      Celtic Spritesheet_13: 266852710
+      Celtic Spritesheet_14: -45622521
+      Celtic Spritesheet_15: -1907839310
+      Celtic Spritesheet_16: 1383657147
+      Celtic Spritesheet_17: 1991820638
+      Celtic Spritesheet_18: 884068377
+      Celtic Spritesheet_19: 206381746
+      Celtic Spritesheet_2: -1154427234
+      Celtic Spritesheet_20: 1828509457
+      Celtic Spritesheet_21: 826643423
+      Celtic Spritesheet_22: -272375284
+      Celtic Spritesheet_23: 1214847717
+      Celtic Spritesheet_24: -639289761
+      Celtic Spritesheet_25: 1489754877
+      Celtic Spritesheet_26: 923615658
+      Celtic Spritesheet_27: -149867222
+      Celtic Spritesheet_28: -1274529040
+      Celtic Spritesheet_29: 1847701233
+      Celtic Spritesheet_3: 627897140
+      Celtic Spritesheet_4: 1964663714
+      Celtic Spritesheet_5: -1097841535
+      Celtic Spritesheet_6: -422773371
+      Celtic Spritesheet_7: 387215236
+      Celtic Spritesheet_8: 1785714127
+      Celtic Spritesheet_9: 699103050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
