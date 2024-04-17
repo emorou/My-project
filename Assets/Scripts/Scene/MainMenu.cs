@@ -46,7 +46,7 @@ public class MainMenu : MonoBehaviour
         // load the next scene - which will in turn load the game because of 
         DataPersistenceManager.instance.SaveGame();
         // OnSceneLoaded() in the DataPersistenceManager
-        SceneManager.LoadSceneAsync("Lobby");
+        LevelLoader.instance.NextLevel(5);
     }
 
     private void DisableMenuButtons()

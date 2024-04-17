@@ -76,7 +76,6 @@ public class Tutorial : MonoBehaviour
 
         if(isSafeZoneTutorialDone)
         {
-            // AudioManager.instance.PlayMusic("Boss Music");
             Chamber1Tutorial();
         }
 
@@ -173,6 +172,11 @@ public class Tutorial : MonoBehaviour
                 DialogueManager.instance.dialoguePanel.SetActive(true);
             }
         }
+
+        if(!slide3Done)
+        MissionWaypoint.instance.targetNumber = 0;
+        else
+        MissionWaypoint.instance.targetNumber = 1;
     }
 
     void Chamber1Tutorial()

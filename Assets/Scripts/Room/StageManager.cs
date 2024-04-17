@@ -51,21 +51,21 @@ public class StageManager : MonoBehaviour
     {
         DataPersistenceManager.instance.SaveGame();
 
-        SceneManager.LoadSceneAsync("Lobby New");
+        LevelLoader.instance.NextLevel(5);
     }
     
     public void Level1Button()
     {   
         DataPersistenceManager.instance.SaveGame();
        
-        SceneManager.LoadSceneAsync("Level 1 New");
+        LevelLoader.instance.NextLevel(6);
         
     }
 
     public void DeathGameButton()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadSceneAsync("Lobby New");
+        LevelLoader.instance.NextLevel(2);
     }
 
     public void ToggleMusic()
