@@ -54,6 +54,7 @@ public class Tutorial : MonoBehaviour
     [Header("Easter Egg")]
     public GameObject warpGate7;
     public GameObject freddyBagas;
+    public GameObject enemyEasterEgg;
     public bool enterEasterEgg = false;
     public GameObject tutorialDone;
     [SerializeField] private TextAsset inkJSON6;
@@ -190,7 +191,6 @@ public class Tutorial : MonoBehaviour
 
         if(childCrateBox == null && !slide4Done && !DialogueManager.instance.dialogueIsPlaying)
         {
-            MissionWaypoint.instance.waypoint.SetActive(false);
             slide4Done = true;
             tutorialSlide4.SetActive(false);
             warpGate2.SetActive(true);
@@ -269,7 +269,7 @@ public class Tutorial : MonoBehaviour
     {
         warpGate7.SetActive(false);
         freddyBagas.SetActive(true);
-        Transform freddy = enemiesChamber2.transform.Find("enemy");
+        Transform freddy = enemyEasterEgg.transform.Find("bagas");
 
         if(freddy == null)
         {

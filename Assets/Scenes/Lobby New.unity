@@ -398,10 +398,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5549b3591f8a1544f87a4c11e9408352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
   moveDir: {x: 0, y: 0}
   lastHorizontalVector: 0
   lastVerticalVector: 0
   lastMovedVector: {x: 0, y: 0}
+  isDashing: 0
   rb: {fileID: 12409198}
   characterData: {fileID: 11400000, guid: b4c6caf449b38ed4dbe6053aceaa73af, type: 2}
   trailRenderer: {fileID: 2084386744}
