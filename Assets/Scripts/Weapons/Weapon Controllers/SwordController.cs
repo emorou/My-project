@@ -35,7 +35,7 @@ public class SwordController : WeaponController
         if (col.CompareTag("Enemy"))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(weaponData.Damage);
+            enemy.TakeDamage(weaponData.Damage, transform.position);
         }
     }
 }

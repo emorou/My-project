@@ -190,6 +190,7 @@ public class Tutorial : MonoBehaviour
 
         if(childCrateBox == null && !slide4Done && !DialogueManager.instance.dialogueIsPlaying)
         {
+            MissionWaypoint.instance.waypoint.SetActive(false);
             slide4Done = true;
             tutorialSlide4.SetActive(false);
             warpGate2.SetActive(true);
