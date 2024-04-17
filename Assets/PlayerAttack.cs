@@ -32,7 +32,7 @@ public class PlayerAttack : MonoBehaviour
         if (col.tag == "Enemy")
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(damage);
+            enemy.TakeDamage(damage, transform.position);
         }
         else if (col.CompareTag("Prop"))
         {
