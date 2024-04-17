@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
@@ -34,30 +32,30 @@ public class StageManager : MonoBehaviour
     void Update()
     {
         healthBar.value = playerStats.currentHealth;
+        healthBar.maxValue = playerStats.maxHealth;
         ammoBar.value = knifeController.currentClip;
         goldText.text = "" + playerStats.gold;
         levelText.text = playerStats.level + " (" + playerStats.experience + " / " + playerStats.experienceCap + " )";
-        healthText.text = playerStats.currentHealth + " / " + playerStats.characterData.MaxHealth;
+        healthText.text = playerStats.currentHealth + " / " + playerStats.maxHealth;
         bulletText.text = knifeController.currentClip + " / " + knifeController.currentAmmo;
 
-        if(playerStats.currentHealth == 0)
+        if(playerStats.currentHealth <= 0)
         {
-            deathScreen.SetActive(true);
+            DataToKeep.isPlayerDead = true;
+            // Time.timeScale = 0f;
+            deathScreen.SetActive(true); 
         }
-
     }
     
     public void WinButton()
     {
         DataPersistenceManager.instance.SaveGame();
 
-        SceneManager.LoadSceneAsync("Lobby");
+        SceneManager.LoadSceneAsync("Lobby New");
     }
     
     public void Level1Button()
-    {
-        // saveButton.onClick.RemoveAllListeners();
-      
+    {   
         DataPersistenceManager.instance.SaveGame();
        
         SceneManager.LoadSceneAsync("Level 1 New");
@@ -66,7 +64,8 @@ public class StageManager : MonoBehaviour
 
     public void DeathGameButton()
     {
-        SceneManager.LoadSceneAsync("Lobby");
+        Time.timeScale = 1f;
+        SceneManager.LoadSceneAsync("Lobby New");
     }
 
     public void ToggleMusic()
