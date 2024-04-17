@@ -236,4 +236,10 @@ public class DialogueManager : MonoBehaviour
             ContinueStory();
         }
     }
+
+    // public void SkipLine()
+    // {
+    //     dialogueText.maxVisibleCharacters = line.Length;
+    //     break;
+    // }
 }

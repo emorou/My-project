@@ -759,18 +759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typingSpeed: 0.04
-  globalInkFile:
-    inkAsset: {fileID: 102900000, guid: 085643654002d2f4890bcf7393469e74, type: 3}
-    jsonAssetDirectory: {fileID: 0}
-    jsonAsset: {fileID: 0}
-    unhandledCompileErrors: []
-    recursiveIncludeErrorPaths: []
-    errors: []
-    warnings: []
-    todos: []
-    masterInkAssets: []
-    localIncludePaths: []
-    includes: []
+  loadGlobalsJSON: {fileID: 4900000, guid: a596fc9835bb74041b1dc032a05b3fcb, type: 3}
   dialoguePanel: {fileID: 618819677}
   continueIcon: {fileID: 69199597}
   dialogueText: {fileID: 1399087684}
@@ -4927,6 +4916,7 @@ MonoBehaviour:
   itemContent: {fileID: 1374893280}
   inventoryItem: {fileID: 7814332817846599656, guid: 89fcc923998235648bd3a55d00201aa1, type: 3}
   InventoryItems: []
+  itemInInventory: []
   enableRemove: {fileID: 911590302}
   isRemoveMode: 0
   inventoryUI: {fileID: 1787685333}
@@ -7290,7 +7280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5549b3591f8a1544f87a4c11e9408352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
   moveDir: {x: 0, y: 0}
   lastHorizontalVector: 0
   lastVerticalVector: 0
@@ -7364,6 +7353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: b4c6caf449b38ed4dbe6053aceaa73af, type: 2}
   currentHealth: 0
+  maxHealth: 0
   currentMoveSpeed: 0
   invincibilityDuration: 0.5
   invincibilityTimer: 0
@@ -7383,6 +7373,7 @@ MonoBehaviour:
   - startLevel: 7
     endLevel: 8
     experienceCapIncrease: 300
+  isPlayerDead: 0
 --- !u!4 &1503948740
 Transform:
   m_ObjectHideFlags: 0
@@ -7949,9 +7940,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c837416aae446f84c852aedfcb4c0205, type: 2}
   shopPanels:
   - {fileID: 2092377105}
-  warningSign: {fileID: 580269644}
   purchaseButton:
   - {fileID: 709142256}
+  shopUI: {fileID: 842635895}
+  isShopAppear: 0
 --- !u!1 &1661231014
 GameObject:
   m_ObjectHideFlags: 0

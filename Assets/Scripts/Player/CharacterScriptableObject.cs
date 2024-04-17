@@ -7,9 +7,9 @@ public class CharacterScriptableObject : ScriptableObject
 {
     [SerializeField]
     float maxHealth;
-    public float MaxHealth { get => maxHealth; private set => maxHealth = value; }
+    public float MaxHealth { get => maxHealth; set => maxHealth = value; }
 
     [SerializeField]
     float moveSpeed;
-    public float MoveSpeed { get => moveSpeed; private set => moveSpeed = value; }
+    public float MoveSpeed { get => moveSpeed; set => moveSpeed = value; }
 }

@@ -374,6 +374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: b4c6caf449b38ed4dbe6053aceaa73af, type: 2}
   currentHealth: 0
+  maxHealth: 0
   currentMoveSpeed: 0
   invincibilityDuration: 0.5
   invincibilityTimer: 0
@@ -388,10 +389,10 @@ MonoBehaviour:
     endLevel: 3
     experienceCapIncrease: 100
   - startLevel: 4
-    endLevel: 5
+    endLevel: 6
     experienceCapIncrease: 200
   - startLevel: 7
-    endLevel: 8
+    endLevel: 9
     experienceCapIncrease: 300
 --- !u!114 &12409203
 MonoBehaviour:
@@ -4736,26 +4737,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LoadingScene, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
-        m_MethodName: ResumeForButton
+      - m_Target: {fileID: 2104890401}
+        m_TargetAssemblyTypeName: StageManager, Assembly-CSharp
+        m_MethodName: DeathGameButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6248,7 +6237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typingSpeed: 0.02
-  loadGlobalsJSON: {fileID: 0}
+  loadGlobalsJSON: {fileID: 4900000, guid: a596fc9835bb74041b1dc032a05b3fcb, type: 3}
   dialoguePanel: {fileID: 163001128}
   continueIcon: {fileID: 1856619195}
   dialogueText: {fileID: 1126020745}
@@ -15564,7 +15553,7 @@ MonoBehaviour:
   healthText: {fileID: 389321443}
   bulletText: {fileID: 1139836507}
   player: {fileID: 12409194}
-  deathScreen: {fileID: 0}
+  deathScreen: {fileID: 1769376904}
   healthBar: {fileID: 1446081990}
   ammoBar: {fileID: 1615169463}
   musicSlider: {fileID: 268306260}
