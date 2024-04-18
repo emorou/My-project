@@ -16,6 +16,7 @@ public class InkExternalFunctions
         story.BindExternalFunction("TutorialDone", TutorialDone);
         story.BindExternalFunction("EasterEggMusicPlay", EasterEggMusicPlay);
         story.BindExternalFunction("EasterEgg", EasterEgg);
+        story.BindExternalFunction("BossMusicPlay", BossMusicPlay);
         // story.BindExternalFunction("PlayEmote", (string emoteName) => PlayEmote(EmoteName, emoteAnimator));
     }
 
@@ -29,9 +30,10 @@ public class InkExternalFunctions
         story.UnbindExternalFunction("TutorialDone");
         story.UnbindExternalFunction("EasterEggMusicPlay");
         story.UnbindExternalFunction("EasterEgg");
+        story.UnbindExternalFunction("BossMusicPlay");
     }
 
-     public void BackToIntro()
+    public void BackToIntro()
     {
         SceneManager.LoadSceneAsync("Intro");
     }
@@ -88,5 +90,10 @@ public class InkExternalFunctions
         DialogueManager.instance.dialogueIsPlaying = false;
         DialogueManager.instance.dialoguePanel.SetActive(false);
         Tutorial.instance.enterEasterEgg = true;
+    }
+
+    public void BossMusicPlay()
+    {
+        AudioManager.instance.PlayMusic("Boss Music");
     }
 }

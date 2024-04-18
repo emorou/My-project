@@ -26,6 +26,7 @@ public class SwordController : WeaponController
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
         // Trigger the attack animation
+        AudioManager.instance.PlaySFX("Suara Pedang");
         anim.SetTrigger("Attack");
     }
 
@@ -34,7 +35,7 @@ public class SwordController : WeaponController
         if (col.CompareTag("Enemy"))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(weaponData.Damage);
+            enemy.TakeDamage(weaponData.Damage, transform.position);
         }
     }
 }

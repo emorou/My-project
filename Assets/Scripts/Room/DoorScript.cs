@@ -21,7 +21,7 @@ public class DoorScript : MonoBehaviour
     {
         if (playerDetected)
         {
-            if (Input.GetKeyDown(KeyCode.E) && enemySpawner.ableToTeleport)
+            if (Input.GetKeyDown(KeyCode.E) && enemySpawner.ableToTeleport && !DialogueManager.instance.dialogueIsPlaying)
             {
                 enemySpawner.ableToTeleport = false;
                 playerGO.transform.position = posToGo.position;
