@@ -24388,9 +24388,8 @@ MonoBehaviour:
   isBossTutorialDone: 0
   inkJSON5: {fileID: 4900000, guid: 74f7a4a7525d5b34eb2cd27bdc8f961c, type: 3}
   warpGate7: {fileID: 350006745}
-  freddyBagas: {fileID: 1016369334}
   enemyEasterEgg: {fileID: 1016369334}
-  enterEasterEgg: 0
+  enterEasterEgg: 1
   tutorialDone: {fileID: 55904639}
   inkJSON6: {fileID: 4900000, guid: 2a7843e6aef84e04f9f3719a4e786bd7, type: 3}
 --- !u!1 &1799769344

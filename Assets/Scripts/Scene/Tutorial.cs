@@ -53,7 +53,6 @@ public class Tutorial : MonoBehaviour
 
     [Header("Easter Egg")]
     public GameObject warpGate7;
-    public GameObject freddyBagas;
     public GameObject enemyEasterEgg;
     public bool enterEasterEgg = false;
     public GameObject tutorialDone;
@@ -268,7 +267,7 @@ public class Tutorial : MonoBehaviour
     void EasterEgg()
     {
         warpGate7.SetActive(false);
-        freddyBagas.SetActive(true);
+        enemyEasterEgg.SetActive(true);
         Transform freddy = enemyEasterEgg.transform.Find("bagas");
 
         if(freddy == null)
