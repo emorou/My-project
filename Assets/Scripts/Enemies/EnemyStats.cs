@@ -1,32 +1,54 @@
+using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class EnemyStats : MonoBehaviour
 {
     public EnemyScriptableObjects enemyData;
     private EnemySpawner enemySpawner;
 
     float currentMoveSpeed;
+    float MaxHealth;
     float currentHealth;
     float currentDamage;
 
     Rigidbody2D rb; // Rigidbody2D untuk enemy
-
+    public Canvas canvas;
+    public Slider healthBar;
+    public GameObject healthBarGO;
     void Awake()
     {
         enemySpawner = FindObjectOfType<EnemySpawner>();
         currentMoveSpeed = enemyData.MoveSpeed;
-        currentHealth = enemyData.MaxHealth;
+        MaxHealth = enemyData.MaxHealth;
         currentDamage = enemyData.Damage;
 
         rb = GetComponent<Rigidbody2D>(); // Mengambil komponen Rigidbody2D
     }
+    public void Start()
+    {
+        currentHealth = MaxHealth;
+        healthBar.value = currentHealth;
+        healthBar.maxValue = MaxHealth;
+        canvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+    }
+    void Update()
+    {
+        if(healthBar.value != MaxHealth)
+        healthBarGO.SetActive(true);
+        else
+        healthBarGO.SetActive(false);
+        
+        healthBar.value = currentHealth; 
+    }
+    
 
     public void TakeDamage(float dmg, Vector2 sourcePosition, float knockbackForce = 10f, float knockbackDuration = 0.2f)
     {
         currentHealth -= dmg;
-
+        // healthBar.value = currentHealth; 
+        // Debug.Log("test");
         if (currentHealth <= 0)
         {
             enemySpawner.RemoveEnemy(gameObject);

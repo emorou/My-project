@@ -10,6 +10,12 @@ public class EnemyMovement : MonoBehaviour
     Vector2 knockbackVelocity; 
     float knockbackDuration;
 
+    private SpriteRenderer spriteRenderer;
+
+    void Awake()
+    {
+        this.spriteRenderer = this.GetComponent<SpriteRenderer>();
+    }
     void Start()
     {
         player = FindObjectOfType<PlayerMovement>().transform;
@@ -24,6 +30,7 @@ public class EnemyMovement : MonoBehaviour
         }
         else
         {
+            this.spriteRenderer.flipX = player.transform.position.x > this.transform.position.x;
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyData.MoveSpeed * Time.deltaTime);    //Constantly move the enemy towards the player
         }
         

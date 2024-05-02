@@ -65,7 +65,7 @@ public class StageManager : MonoBehaviour
     public void DeathGameButton()
     {
         Time.timeScale = 1f;
-        LevelLoader.instance.NextLevel(2);
+        LevelLoader.instance.NextLevel(5);
     }
 
     public void ToggleMusic()
