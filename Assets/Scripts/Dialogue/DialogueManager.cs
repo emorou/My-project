@@ -44,6 +44,7 @@ public class DialogueManager : MonoBehaviour
     private InkExternalFunctions inkExternalFunctions;
     private DialogueVariables dialogueVariables;
 
+    public GameObject nonDialogueUI;
     private void Awake()
     {
         inkExternalFunctions = new InkExternalFunctions();
@@ -81,7 +82,12 @@ public class DialogueManager : MonoBehaviour
     {
         if(!dialogueIsPlaying)
         {
+            nonDialogueUI.SetActive(true);
             return;
+        }
+        else
+        {
+            nonDialogueUI.SetActive(false);
         }
 
         if(canContinueToNextLine && currentStory.currentChoices.Count == 0 && Input.GetKeyDown(KeyCode.E) | Input.GetMouseButtonDown(0))
