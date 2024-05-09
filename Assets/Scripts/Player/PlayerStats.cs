@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour, IDataPersistence
 {
+    public NewQuest quest;
     public CharacterScriptableObject characterData;
     public float currentHealth;
     public float maxHealth;
@@ -81,6 +82,17 @@ public class PlayerStats : MonoBehaviour, IDataPersistence
         else if (isInvincible)
         {
             isInvincible = false;
+        }
+
+        if(quest.isActive)
+        {
+            quest.goal.EnemyKilled();
+            if(quest.goal.isReached())
+            {
+                experience += quest.experienceReward;
+                gold += quest.goldReward;
+                quest.Complete();
+            }
         }
     }
 

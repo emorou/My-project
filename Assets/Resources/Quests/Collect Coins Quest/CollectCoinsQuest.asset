@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f596eddcc5a2154aa22408c9925409c, type: 3}
-  m_Name: Defeat Boss 1
+  m_Name: CollectCoinsQuest
   m_EditorClassIdentifier: 
-  <id>k__BackingField: Defeat Boss 1
-  displayName: It all begins here... Home
+  <id>k__BackingField: CollectCoinsQuest
+  displayName: Collect the Coins!
   levelRequirement: 1
   questPrerequisites: []
-  questStepPrefabs: []
-  goldReward: 500
+  questStepPrefabs:
+  - {fileID: 6325824774297709501, guid: a978e3418b4e6634e8f17802f2a22257, type: 3}
+  goldReward: 50
+  experienceReward: 50
