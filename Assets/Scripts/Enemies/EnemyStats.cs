@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class EnemyStats : MonoBehaviour
 {
+    public int killCount = 0;
     public EnemyScriptableObjects enemyData;
     private EnemySpawner enemySpawner;
 
@@ -17,6 +18,7 @@ public class EnemyStats : MonoBehaviour
     public Canvas canvas;
     public Slider healthBar;
     public GameObject healthBarGO;
+    
     void Awake()
     {
         enemySpawner = FindObjectOfType<EnemySpawner>();
@@ -79,6 +81,7 @@ public class EnemyStats : MonoBehaviour
 
     public void Kill()
     {
+        killCount++;
         Destroy(gameObject);
     }
 

@@ -10,6 +10,7 @@ public class StageManager : MonoBehaviour
     public TMP_Text healthText;
     public TMP_Text bulletText;
 
+    public TMP_Text killCountText;
     private PlayerStats playerStats;
     private KnifeController knifeController;
 
@@ -21,10 +22,14 @@ public class StageManager : MonoBehaviour
     public Slider musicSlider;
     public Slider sfxSlider;
 
-    void Start()
+    private EnemySpawner enemySpawner;
+    private EnemyStats enemyStats;
+    void Awake()
     {
         playerStats = FindObjectOfType<PlayerStats>();
         knifeController = FindObjectOfType<KnifeController>();
+        enemyStats = FindObjectOfType<EnemyStats>();
+        enemySpawner = FindObjectOfType<EnemySpawner>();
         healthBar.value = playerStats.currentHealth;
         ammoBar.value = knifeController.currentClip;
     }
@@ -45,6 +50,12 @@ public class StageManager : MonoBehaviour
             // Time.timeScale = 0f;
             deathScreen.SetActive(true); 
         }
+
+        if(!enemySpawner.AreAllEnemiesNull())
+        killCountText.text = "";
+        else
+        killCountText.text = " / " + enemySpawner.enemyPrefab.Count;
+        // killCountText.text = enemyStats.killCount + " / " + enemySpawner.enemyPrefab.Count;
     }
     
     public void WinButton()
