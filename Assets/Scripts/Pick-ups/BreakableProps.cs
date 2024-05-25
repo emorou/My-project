@@ -18,6 +18,7 @@ public class BreakableProps : MonoBehaviour
 
     public void Kill()
     {
+        AudioManager.instance.PlaySFX("Prop Hancur");
         Destroy(gameObject);
     }
 }

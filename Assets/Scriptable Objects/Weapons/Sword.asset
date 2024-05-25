@@ -16,4 +16,4 @@ MonoBehaviour:
   damage: 10
   speed: 1
   cooldownDurationranged: 1
-  cooldownDurationmelee: 0.9
+  cooldownDurationmelee: 0

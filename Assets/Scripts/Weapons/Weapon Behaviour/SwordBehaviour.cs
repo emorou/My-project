@@ -4,8 +4,17 @@ using UnityEngine;
 
 public class SwordBehaviour : MeleeWeaponBehaviour
 {
-    protected override void Start()
+    private void Awake()
+    {
+        base.Awake();
+    }
+    private void Start()
     {
         base.Start();
+    }
+
+    private void Update()
+    {
+        base.Update();
     }
 }
