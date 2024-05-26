@@ -22,20 +22,20 @@ public class WeaponController : MonoBehaviour
         knifeController = FindObjectOfType<KnifeController>();
     }
 
-    // protected virtual void Update()
-    // {
-    //     currentCooldownRanged -= Time.deltaTime;
+    protected virtual void Update()
+    {
+        currentCooldownRanged -= Time.deltaTime;
         
-    //     if (!DialogueManager.instance.dialogueIsPlaying && currentCooldownRanged <= 0f && Input.GetMouseButton(1) && !Pause.instance.GameIsPaused && !ShopManager.Instance.isShopAppear && knifeController.currentClip != 0 )   //Once the cooldown becomes 0, attack
-    //     {
-    //         KnifeAttack();
-    //     }
+        if (!DialogueManager.instance.dialogueIsPlaying && currentCooldownRanged <= 0f && Input.GetMouseButton(1) && !Pause.instance.GameIsPaused && !ShopManager.Instance.isShopAppear && knifeController.currentClip != 0 )   //Once the cooldown becomes 0, attack
+        {
+            KnifeAttack();
+        }
 
-    //     if (!DialogueManager.instance.dialogueIsPlaying && knifeController.currentClip == 0 || Input.GetKeyDown(KeyCode.R) && !Pause.instance.GameIsPaused && !ShopManager.Instance.isShopAppear)
-    //     {
-    //         knifeController.Reload();
-    //     }
-    // }
+        if (!DialogueManager.instance.dialogueIsPlaying && knifeController.currentClip == 0 || Input.GetKeyDown(KeyCode.R) && !Pause.instance.GameIsPaused && !ShopManager.Instance.isShopAppear)
+        {
+            knifeController.Reload();
+        }
+    }
 
     protected virtual void KnifeAttack()
     {

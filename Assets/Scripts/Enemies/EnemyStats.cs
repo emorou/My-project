@@ -47,10 +47,10 @@ public class EnemyStats : MonoBehaviour
     public void TakeDamage(float dmg, Vector2 sourcePosition, float knockbackForce = 10f, float knockbackDuration = 0.2f)
     {
         currentHealth -= dmg;
-        // healthBar.value = currentHealth; 
-        // Debug.Log("test");
+
         if (currentHealth <= 0)
         {
+            DataToKeep.enemyCounter++;
             enemySpawner.RemoveEnemy(gameObject);
             Kill();
         }

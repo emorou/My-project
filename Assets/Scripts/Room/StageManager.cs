@@ -9,9 +9,11 @@ public class StageManager : MonoBehaviour
     public TMP_Text levelText;
     public TMP_Text healthText;
     public TMP_Text bulletText;
+    public TMP_Text enemyCountText;
 
     private PlayerStats playerStats;
     private KnifeController knifeController;
+    private EnemySpawner enemySpawner;
 
     public GameObject player;
     public GameObject deathScreen;
@@ -25,6 +27,7 @@ public class StageManager : MonoBehaviour
     {
         playerStats = FindObjectOfType<PlayerStats>();
         knifeController = FindObjectOfType<KnifeController>();
+        enemySpawner = FindObjectOfType<EnemySpawner>();
         healthBar.value = playerStats.currentHealth;
         ammoBar.value = knifeController.currentClip;
     }
@@ -45,6 +48,14 @@ public class StageManager : MonoBehaviour
             // Time.timeScale = 0f;
             deathScreen.SetActive(true); 
         }
+
+        if(enemySpawner.ableToTeleport)
+        {
+            DataToKeep.enemyCounter = 0;
+            enemyCountText.text = "";
+        }
+        else
+        enemyCountText.text = DataToKeep.enemyCounter.ToString() + " / " + enemySpawner.enemyPrefab.Count;
     }
     
     public void WinButton()
