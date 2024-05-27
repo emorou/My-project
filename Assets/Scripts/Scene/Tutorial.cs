@@ -173,10 +173,6 @@ public class Tutorial : MonoBehaviour
             }
         }
 
-        if(!slide3Done)
-        MissionWaypoint.instance.targetNumber = 0;
-        else
-        MissionWaypoint.instance.targetNumber = 1;
     }
 
     void Chamber1Tutorial()
