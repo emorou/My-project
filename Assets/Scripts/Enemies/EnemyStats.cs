@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class EnemyStats : MonoBehaviour
 {
+    public int killCount = 0;
     public EnemyScriptableObjects enemyData;
     private EnemySpawner enemySpawner;
 
@@ -17,6 +18,7 @@ public class EnemyStats : MonoBehaviour
     public Canvas canvas;
     public Slider healthBar;
     public GameObject healthBarGO;
+
     void Awake()
     {
         enemySpawner = FindObjectOfType<EnemySpawner>();
@@ -35,14 +37,14 @@ public class EnemyStats : MonoBehaviour
     }
     void Update()
     {
-        if(healthBar.value != MaxHealth)
-        healthBarGO.SetActive(true);
+        if (healthBar.value != MaxHealth)
+            healthBarGO.SetActive(true);
         else
-        healthBarGO.SetActive(false);
-        
-        healthBar.value = currentHealth; 
+            healthBarGO.SetActive(false);
+
+        healthBar.value = currentHealth;
     }
-    
+
 
     public void TakeDamage(float dmg, Vector2 sourcePosition, float knockbackForce = 10f, float knockbackDuration = 0.2f)
     {
@@ -79,6 +81,7 @@ public class EnemyStats : MonoBehaviour
 
     public void Kill()
     {
+        killCount++;
         Destroy(gameObject);
     }
 
@@ -122,7 +125,7 @@ public class EnemyStats : MonoBehaviour
         {
             playerRb.isKinematic = false; // Mengaktifkan kembali Rigidbody pemain setelah jeda
             Debug.Log("Player Rigidbody Reactivated");
-        }  
+        }
     }
 
     // Method to reactivate the enemy after a delay
