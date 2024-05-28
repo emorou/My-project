@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Audio/SFX/1.1.1 Swing Sword updated.wav.meta
-guid: 2cc3421c2658b8f4f9986eca596c1639
-========
-guid: b45d1473637bca941904b0c7cc09f92f
->>>>>>>> 69892f2052fff5fe2c299914f45538745c55499d:Assets/Audio/SFX/Game/1.1.1 Swing Sword updated.wav.meta
+guid: 5a9af261762768e4d89fed57ce47daaf
 AudioImporter:
   externalObjects: {}
   serializedVersion: 7
