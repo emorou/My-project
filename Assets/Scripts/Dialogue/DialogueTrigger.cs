@@ -23,6 +23,7 @@ public class DialogueTrigger : MonoBehaviour
             visualCue.SetActive(true);
             if(Input.GetKeyDown(KeyCode.F))
             {
+                AudioManager.instance.PlaySFX("NPC Interact");
                 DialogueManager.instance.EnterDialogueMode(inkJSON);
             }
         }    

@@ -9,10 +9,11 @@ public class StageManager : MonoBehaviour
     public TMP_Text levelText;
     public TMP_Text healthText;
     public TMP_Text bulletText;
+    public TMP_Text enemyCountText;
 
-    public TMP_Text killCountText;
     private PlayerStats playerStats;
     private KnifeController knifeController;
+    private EnemySpawner enemySpawner;
 
     public GameObject player;
     public GameObject deathScreen;
@@ -22,13 +23,10 @@ public class StageManager : MonoBehaviour
     public Slider musicSlider;
     public Slider sfxSlider;
 
-    private EnemySpawner enemySpawner;
-    private EnemyStats enemyStats;
-    void Awake()
+    void Start()
     {
         playerStats = FindObjectOfType<PlayerStats>();
         knifeController = FindObjectOfType<KnifeController>();
-        enemyStats = FindObjectOfType<EnemyStats>();
         enemySpawner = FindObjectOfType<EnemySpawner>();
         healthBar.value = playerStats.currentHealth;
         ammoBar.value = knifeController.currentClip;
@@ -44,33 +42,35 @@ public class StageManager : MonoBehaviour
         healthText.text = playerStats.currentHealth + " / " + playerStats.maxHealth;
         bulletText.text = knifeController.currentClip + " / " + knifeController.currentAmmo;
 
-        if (playerStats.currentHealth <= 0)
+        if(playerStats.currentHealth <= 0)
         {
             DataToKeep.isPlayerDead = true;
             // Time.timeScale = 0f;
-            deathScreen.SetActive(true);
+            deathScreen.SetActive(true); 
         }
 
-        if (!enemySpawner.AreAllEnemiesNull())
-            killCountText.text = "";
+        if(enemySpawner.ableToTeleport)
+        {
+            DataToKeep.enemyCounter = 0;
+            enemyCountText.text = "";
+        }
         else
-            killCountText.text = " / " + enemySpawner.enemyPrefab.Count;
-        // killCountText.text = enemyStats.killCount + " / " + enemySpawner.enemyPrefab.Count;
+        enemyCountText.text = DataToKeep.enemyCounter.ToString() + " / " + enemySpawner.enemyPrefab.Count;
     }
-
+    
     public void WinButton()
     {
         DataPersistenceManager.instance.SaveGame();
 
         LevelLoader.instance.NextLevel(5);
     }
-
+    
     public void Level1Button()
-    {
+    {   
         DataPersistenceManager.instance.SaveGame();
-
+       
         LevelLoader.instance.NextLevel(6);
-
+        
     }
 
     public void DeathGameButton()

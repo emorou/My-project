@@ -16,7 +16,6 @@ public class EnemySpawner : MonoBehaviour
     public bool playerEnteredRoom = false;
     public bool isRoomClear = false;
     public List<GameObject> spawnedEnemies = new List<GameObject>(); // Keep track of spawned enemies
-
     private EnemyStats enemyStats;
     public void SpawnEnemy()
     {
@@ -24,10 +23,10 @@ public class EnemySpawner : MonoBehaviour
         playerEnteredRoom = true;
         if (playerEnteredRoom && Time.time >= nextSpawnTime && currentEnemyIndex < enemyPrefab.Count)
         {
-            for (int i = 0; i < enemyPrefab.Count; i++)
+            for(int i  = 0; i < enemyPrefab.Count; i++)
             {
                 GameObject enemyInstance = Instantiate(enemyPrefab[currentEnemyIndex], enemySpawnPoint[currentEnemyIndex].position, enemySpawnPoint[currentEnemyIndex].rotation);
-                spawnedEnemies.Add(enemyInstance);
+                spawnedEnemies.Add(enemyInstance); // Add the spawned enemy to the list
                 currentEnemyIndex++;
                 nextSpawnTime = Time.time + spawnInterval;
             }
@@ -43,6 +42,7 @@ public class EnemySpawner : MonoBehaviour
 
     private void Start()
     {
+        // Find and store a reference to the player character (you may need to adjust this)
         playerCharacter = GameObject.FindGameObjectWithTag("Player");
     }
 
@@ -55,9 +55,9 @@ public class EnemySpawner : MonoBehaviour
     {
         if (AreAllEnemiesNull() && playerEnteredRoom)
         {
-            enemyStats.killCount = 0;
             ableToTeleport = true;
             isRoomClear = true;
         }
+        
     }
 }
