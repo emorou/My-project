@@ -1,6 +1,5 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StageManager : MonoBehaviour
@@ -28,8 +27,11 @@ public class StageManager : MonoBehaviour
         playerStats = FindObjectOfType<PlayerStats>();
         knifeController = FindObjectOfType<KnifeController>();
         enemySpawner = FindObjectOfType<EnemySpawner>();
+
         healthBar.value = playerStats.currentHealth;
         ammoBar.value = knifeController.currentClip;
+
+        UpdateEnemyCount();
     }
 
     void Update()
@@ -37,40 +39,53 @@ public class StageManager : MonoBehaviour
         healthBar.value = playerStats.currentHealth;
         healthBar.maxValue = playerStats.maxHealth;
         ammoBar.value = knifeController.currentClip;
-        goldText.text = "" + playerStats.gold;
+        goldText.text = playerStats.gold.ToString();
         levelText.text = playerStats.level + " (" + playerStats.experience + " / " + playerStats.experienceCap + " )";
         healthText.text = playerStats.currentHealth + " / " + playerStats.maxHealth;
         bulletText.text = knifeController.currentClip + " / " + knifeController.currentAmmo;
 
-        if(playerStats.currentHealth <= 0)
+        if (playerStats.currentHealth <= 0)
         {
             DataToKeep.isPlayerDead = true;
-            // Time.timeScale = 0f;
-            deathScreen.SetActive(true); 
+            deathScreen.SetActive(true);
         }
 
-        if(enemySpawner.ableToTeleport)
+        UpdateEnemyCount();
+    }
+
+     void UpdateEnemyCount()
+    {
+        if (enemySpawner != null)
+        {
+            int currentEnemyCount = enemySpawner.enemyPrefab.Count;
+            if (currentEnemyCount > 0)
+            {
+                DataToKeep.enemyCounter = currentEnemyCount;
+                enemyCountText.text = DataToKeep.enemyCounter.ToString() + " / " + currentEnemyCount;
+            }
+            else
+            {
+                DataToKeep.enemyCounter = 0;
+                enemyCountText.text = "";
+            }
+        }
+        else
         {
             DataToKeep.enemyCounter = 0;
             enemyCountText.text = "";
         }
-        else
-        enemyCountText.text = DataToKeep.enemyCounter.ToString() + " / " + enemySpawner.enemyPrefab.Count;
     }
-    
+
     public void WinButton()
     {
         DataPersistenceManager.instance.SaveGame();
-
         LevelLoader.instance.NextLevel(5);
     }
-    
+
     public void Level1Button()
-    {   
+    {
         DataPersistenceManager.instance.SaveGame();
-       
         LevelLoader.instance.NextLevel(6);
-        
     }
 
     public void DeathGameButton()
@@ -96,6 +111,6 @@ public class StageManager : MonoBehaviour
 
     public void SFXVolume()
     {
-        AudioManager.instance.SFXVolume(musicSlider.value);
+        AudioManager.instance.SFXVolume(sfxSlider.value);
     }
 }
