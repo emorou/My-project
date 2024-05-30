@@ -8,10 +8,8 @@ public abstract class QuestStep : MonoBehaviour
 
     protected void FinishQuestStep()
     {
-        if(!isFinished)
-        {
             isFinished = true;
-            Destroy(this.gameObject); 
-        }
+            
+            Destroy(this.gameObject);
     }
 }

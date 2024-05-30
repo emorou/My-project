@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Audio/SFX/1.1 dash.wav.meta
+guid: 6966ffd8a8ab76b48a68d2f192e85121
+========
+guid: 5fe508d543bbbf440ad89572ae186147
+>>>>>>>> 69892f2052fff5fe2c299914f45538745c55499d:Assets/Audio/SFX/Game/1.1 dash.wav.meta
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

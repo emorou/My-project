@@ -48,6 +48,7 @@ public class InventoryItemController : MonoBehaviour
         switch (item.itemType)
         {
             case Item.ItemType.Potion:
+                AudioManager.instance.PlaySFX("Pakai Potion");
                 PlayerStats.Instance.RestoreHealth(item.value);
                 quantityText.text = item.quantity.ToString();
                 item.quantity--;
