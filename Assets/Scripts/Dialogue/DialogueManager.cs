@@ -4,7 +4,6 @@ using UnityEngine;
 using TMPro;
 using Ink.Runtime;
 using UnityEngine.SceneManagement;
-using Ink.UnityIntegration;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -12,7 +11,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private float typingSpeed = 0.04f;
 
     [Header("Globals Ink File")]
-    [SerializeField] private InkFile globalInkFile;
+    [SerializeField] private TextAsset loadGlobalsJSON;
 
     [Header("Dialogue UI")]
     [SerializeField] public GameObject dialoguePanel;
@@ -45,11 +44,12 @@ public class DialogueManager : MonoBehaviour
     private InkExternalFunctions inkExternalFunctions;
     private DialogueVariables dialogueVariables;
 
+    public GameObject nonDialogueUI;
     private void Awake()
     {
         inkExternalFunctions = new InkExternalFunctions();
         instance = this;
-        dialogueVariables = new DialogueVariables(globalInkFile.filePath);
+        dialogueVariables = new DialogueVariables(loadGlobalsJSON);
     }
 
     private void Start()
@@ -82,7 +82,12 @@ public class DialogueManager : MonoBehaviour
     {
         if(!dialogueIsPlaying)
         {
+            nonDialogueUI.SetActive(true);
             return;
+        }
+        else
+        {
+            nonDialogueUI.SetActive(false);
         }
 
         if(canContinueToNextLine && currentStory.currentChoices.Count == 0 && Input.GetKeyDown(KeyCode.E) | Input.GetMouseButtonDown(0))
@@ -143,11 +148,11 @@ public class DialogueManager : MonoBehaviour
 
         foreach (char letter in line.ToCharArray())
         {
-            // if(Input.GetKeyDown(KeyCode.F))
-            // {
-            //     dialogueText.maxVisibleCharacters = line.Length;
-            //     break;
-            // }
+            if(Input.GetKey(KeyCode.F))
+            {
+                dialogueText.maxVisibleCharacters = line.Length;
+                break;
+            }
             if(letter == '<' || isAddingRichTextTag)
             {
                 isAddingRichTextTag = true;
@@ -237,4 +242,10 @@ public class DialogueManager : MonoBehaviour
             ContinueStory();
         }
     }
+
+    // public void SkipLine()
+    // {
+    //     dialogueText.maxVisibleCharacters = line.Length;
+    //     break;
+    // }
 }

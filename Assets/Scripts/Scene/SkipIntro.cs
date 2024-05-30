@@ -8,14 +8,14 @@ public class SkipIntro : MonoBehaviour
 {
     public void ToMainMenu()
     {
-        SceneManager.LoadSceneAsync("Main Menu");
+        LevelLoader.instance.NextLevel(1);
     }
 
     public void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadSceneAsync("Main Menu");
+            LevelLoader.instance.NextLevel(1);
         }
     }
 }

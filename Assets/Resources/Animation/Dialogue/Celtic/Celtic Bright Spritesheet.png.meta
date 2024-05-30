@@ -1,0 +1,2626 @@
+fileFormatVersion: 2
+guid: d372f10af3d7f92478ecdb379ad67337
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1864
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d4cf19e857f6c4a848720b0323cab5
+      internalID: -1074190352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1864
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2f651e5d35d1f488f756a71062618a
+      internalID: -1629519932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1864
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709a0e0c9ba75ec4fa379924390d9bfc
+      internalID: 437518914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1864
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87216c4f45bc014e8e69b2aa70d47b8
+      internalID: 771697292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1864
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89031d3e5fa814b4cbcf3206d4836fb0
+      internalID: 799189532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1864
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abcbad91a4aa9441987acea9ba58372
+      internalID: -61945712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1864
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b78cd32c334e148ba8437031f7e553
+      internalID: -706996546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1864
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e1307a352b9d44aa8885d0f06b0afe
+      internalID: -800445445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1864
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ef559a70692bc4d9865ab1bc0d16d4
+      internalID: -1800592805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1864
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5109b5c20cc13543a1d196a5b88470e
+      internalID: -1419033916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1700
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ca827187f08064187d2f6b570f8439
+      internalID: -1194144204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1700
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca3843665bc49a49aba0c23819ed036
+      internalID: -1374657197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1700
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbd03da28451af4980c401378e3f990
+      internalID: -571525334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1700
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6f8d6c2d542bd42ab5390075b5fb6c
+      internalID: -1171055014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1700
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317f82fdcfed79f4494b00701b4598a8
+      internalID: 886719086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1700
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44dbca663fb5c74aa0ef5c341e4fb28
+      internalID: 832363126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1700
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f286de3c66b0184ca551941eccc912a
+      internalID: -1860871218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1700
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8fb467a2ac36b408c3ebea242a002c
+      internalID: 1855880593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1700
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f31cda6d2f55948ab58f6f6234b406
+      internalID: -537681858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1700
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0537702f4e358479ee4c5947f973e5
+      internalID: 1206908367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1536
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab74c6a5de4def4cbe03624f500a7f1
+      internalID: 314190612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1536
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e924c6fd3dad56d48aacf97d642b43c4
+      internalID: -800854685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1536
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c563235fc8c2d7542a1d14dda4517030
+      internalID: -1742350768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1536
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c08558a7763a93499bf43d0eb6397b8
+      internalID: -774108079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1536
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfa2fb6ead4f5048a3013f774f5f62e
+      internalID: 424343609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1536
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38698e09d314664091154d978f9f884
+      internalID: -1460264832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1536
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3fb774cbeaba34f9d8eb457d10d201
+      internalID: 1912129885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1536
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419c44777df084e47873ec0c3849fc72
+      internalID: 798603635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1536
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac56e46385a4dd4286ff2d57a11c9dd
+      internalID: 1214701003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1536
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3c32efe5de55449a19681378775b34
+      internalID: 1340536231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1372
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac732bb86b2a3ee4b814a05beab293e0
+      internalID: -1641075699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1372
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585712843e4cd3a4ca22c80601a87524
+      internalID: -2093897074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1372
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa30898d7a501043bf713affe1f2aa2
+      internalID: 870322411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1372
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991aa994d69c78144959770244a6a6e2
+      internalID: 1619508136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1372
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29562d0e8e3b774993632b04e83d184
+      internalID: -1652949378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1372
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d32efb8e15e08c459017171e70e32db
+      internalID: 1501312943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1372
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cccfe313aa90054a9bee17488fa6164
+      internalID: -2100559586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1372
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34098f0ea356f4d459d926d217aa3736
+      internalID: 1153374029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1372
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae7d91283972be4483bfec386a807aa
+      internalID: -232410513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1372
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737eb49aace79da4cb05cdd78a625f54
+      internalID: -1741721899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1207
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7becac44283cfb4f85399a3c84595b9
+      internalID: -2094398639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1207
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1019477b419aa344a84b04e0d19f209
+      internalID: -1870491652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1207
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d754363af8a9941a0446088bbe0172
+      internalID: 1194191813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1207
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7ace7017cdd4144a10ad4a77ea969e
+      internalID: -1639470623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1207
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb3b98cd358308439a5129d31d4501d
+      internalID: 542813931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1207
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd32e0be1b3b2a49bceca9d359de213
+      internalID: 1251395893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1207
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709bb09368e4d7b44a131b3f12ba0f77
+      internalID: 602023000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1207
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1812d43a4fdb35f47ae2c707ca98bced
+      internalID: 480605238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1207
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4199b8c6a4c07ac4a8b88c608e9f2568
+      internalID: 1393555108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1207
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aea9b07176601c41a85a8b756c0de24
+      internalID: -2086746152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1044
+        width: 100
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d542f104f1cefb142bb8b44be4dc3407
+      internalID: 1829859042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1044
+        width: 100
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c41d9770b15b0345973d74bb1bf08db
+      internalID: 1643982092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1044
+        width: 100
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7e2dc7a7c4bf7458c8a9f5f19e3463
+      internalID: 461842377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1044
+        width: 100
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cc9ac5c7da4c341b21d6c9934bac9c
+      internalID: -545082628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1044
+        width: 100
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971d2d1ac84087341a7e215937dcc288
+      internalID: -1310023209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1044
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edf5d48ea1487147bbcbb65a3bcfdd5
+      internalID: -731494702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1044
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a87ad3fb3785b4e9f47445566501f6
+      internalID: 397609156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1044
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbab7942eee5f6b489315a7e6749a69f
+      internalID: 1512680539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1044
+        width: 102
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cdda95d8335c44fbcdf5fc3adbc040
+      internalID: 658387065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1044
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10d1ed5cd502bc4190f6e80f16e9e86
+      internalID: 1949226401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 880
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b3c9e80914cff4eab3335942be1d79
+      internalID: 1993448148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 880
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381b3345aecb1764883b77b57e43a85c
+      internalID: 858764426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 880
+        width: 102
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85dabe72ddaf4f40acd45b24208ccbb
+      internalID: -24018348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 880
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311f114c0b4d8e945b4c29765acddd23
+      internalID: -2134621709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 880
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161324b18cb08b5448ab9d88cf1076c7
+      internalID: 2015675485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 880
+        width: 102
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf392f6401f09942b243a515a149720
+      internalID: -534731819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 880
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c1e0897d3b77243addcd01f435587e
+      internalID: -740996140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 880
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cc5240ad10a4d46a62f65886f8a9de
+      internalID: 1719983200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 880
+        width: 102
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903c7ae9c5983a6488523c808e8bd763
+      internalID: 1494982033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 880
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3048c8ed448da94db5854154a1db8dd
+      internalID: -1416633966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 716
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f5dfa36ad764f468d3e751b633796f
+      internalID: -1825008810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 716
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54541613b06b7a648809c07f588cca45
+      internalID: -2031401977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 716
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0347575cc39c61a44b45ac64457e9177
+      internalID: 926208540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 716
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0016684798846c746a56273234e5ccf6
+      internalID: -1459156620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 716
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6761561e7fc4b804a88d68c5099d4b24
+      internalID: -2029362077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 716
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96234e874ba4f7747b3a5c56d3dd9c89
+      internalID: -1585262545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 716
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9abe3ae21f80c849ab9ac8e2575ecd1
+      internalID: 530243846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 716
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd83981f5eeae24db2af0401b6f5f2f
+      internalID: -777726793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 716
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5733fcb190f95364d89f57e89da47693
+      internalID: -1955625528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 716
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b273571548e8442977f42758184ab0
+      internalID: -431740772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 553
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3eda2f26977cc4cb31197ab2343b6c
+      internalID: -122179298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 553
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1da6cbd4358f840afb4837dfa9a32f
+      internalID: 1309098844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 553
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb61c3a20bef1234aa5dfc01b00d3269
+      internalID: 854250085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 553
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87268fb8cc943a949ad3e3b3729e58e9
+      internalID: -635601874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 553
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168298d369ce6ee46b384476e2914fe6
+      internalID: -1624495781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 553
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50da4f2ae5ed31a43ad3f5695d3c6bfb
+      internalID: 86992037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 553
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7289cd5c59062e6448851f8ae5bc79c6
+      internalID: -1804804044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 553
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07be91afa85e4f4d946d2f62049674f
+      internalID: 1128746618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 553
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9184a51a970a9e468632f7a35542e17
+      internalID: -1521321980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 553
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8189210c26b54e4db2703b7ae80584f
+      internalID: 617312073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 389
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9588eee2ee96c8e4dad42a290d950215
+      internalID: -2139086070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 389
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fff8c676c43924a8033c98e0530871
+      internalID: -1809465127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 389
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b283a677c122645b29691144cb471b
+      internalID: -269189830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 389
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d082c5a74fe90b46b18f2e5cbcd2a22
+      internalID: 652365565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 389
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfbbf3caa028794798c0823a028bb62
+      internalID: -111313997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 389
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d678685ac6470f469d4bbd8a95c1081
+      internalID: -889537563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 389
+        width: 102
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2556d95d4af1b1340b8f8ef1b64c0405
+      internalID: 587243173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 389
+        width: 101
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094ecd21e60c021489da7cac748c835d
+      internalID: 888172769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 389
+        width: 102
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586f48178b57c954199915a94145cb4c
+      internalID: 244721968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 389
+        width: 102
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a02ecec13ec8e438e700dcf6f4b629
+      internalID: 322116699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 226
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fad1b7afa7092c41b9660686eb7f71d
+      internalID: -115215373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 226
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f45ef66ddf10e544b7cc2be4aafbd4b
+      internalID: 1514661016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 226
+        width: 102
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fda194a3d0c67041abccad30c76335b
+      internalID: 2032938158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 226
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075ca1c1aade6e0458b1b356cd838a45
+      internalID: -1242175049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 226
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c7fbb31e20c8c4da1d1f5f58ece0b8
+      internalID: -1020446612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 226
+        width: 102
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5184cf47ab5575b4995751e4a43f7895
+      internalID: 1442200308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 226
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0a9f67140bd3c4e83c388315a18375
+      internalID: 500524580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 226
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c8b6e091c330748b7035c4212672b4
+      internalID: 835443065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 226
+        width: 102
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc7217799d7296499310570ae534886
+      internalID: -939999461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 226
+        width: 102
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63ca2094ba347f498178d8808d6ac3f
+      internalID: 510778554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 63
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e86309bf63a26541866bb39d9f75602
+      internalID: 1563683899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 63
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4112e7596a46e884989fea9f66198679
+      internalID: 2140165873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celtic Bright Spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 63
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fa42362c0a50a40b6fd48c2552b5d0
+      internalID: 695022691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Celtic Bright Spritesheet_0: -1074190352
+      Celtic Bright Spritesheet_1: -1629519932
+      Celtic Bright Spritesheet_10: -1194144204
+      Celtic Bright Spritesheet_100: -115215373
+      Celtic Bright Spritesheet_101: 1514661016
+      Celtic Bright Spritesheet_102: 2032938158
+      Celtic Bright Spritesheet_103: -1242175049
+      Celtic Bright Spritesheet_104: -1020446612
+      Celtic Bright Spritesheet_105: 1442200308
+      Celtic Bright Spritesheet_106: 500524580
+      Celtic Bright Spritesheet_107: 835443065
+      Celtic Bright Spritesheet_108: -939999461
+      Celtic Bright Spritesheet_109: 510778554
+      Celtic Bright Spritesheet_11: -1374657197
+      Celtic Bright Spritesheet_110: 1563683899
+      Celtic Bright Spritesheet_111: 2140165873
+      Celtic Bright Spritesheet_112: 695022691
+      Celtic Bright Spritesheet_12: -571525334
+      Celtic Bright Spritesheet_13: -1171055014
+      Celtic Bright Spritesheet_14: 886719086
+      Celtic Bright Spritesheet_15: 832363126
+      Celtic Bright Spritesheet_16: -1860871218
+      Celtic Bright Spritesheet_17: 1855880593
+      Celtic Bright Spritesheet_18: -537681858
+      Celtic Bright Spritesheet_19: 1206908367
+      Celtic Bright Spritesheet_2: 437518914
+      Celtic Bright Spritesheet_20: 314190612
+      Celtic Bright Spritesheet_21: -800854685
+      Celtic Bright Spritesheet_22: -1742350768
+      Celtic Bright Spritesheet_23: -774108079
+      Celtic Bright Spritesheet_24: 424343609
+      Celtic Bright Spritesheet_25: -1460264832
+      Celtic Bright Spritesheet_26: 1912129885
+      Celtic Bright Spritesheet_27: 798603635
+      Celtic Bright Spritesheet_28: 1214701003
+      Celtic Bright Spritesheet_29: 1340536231
+      Celtic Bright Spritesheet_3: 771697292
+      Celtic Bright Spritesheet_30: -1641075699
+      Celtic Bright Spritesheet_31: -2093897074
+      Celtic Bright Spritesheet_32: 870322411
+      Celtic Bright Spritesheet_33: 1619508136
+      Celtic Bright Spritesheet_34: -1652949378
+      Celtic Bright Spritesheet_35: 1501312943
+      Celtic Bright Spritesheet_36: -2100559586
+      Celtic Bright Spritesheet_37: 1153374029
+      Celtic Bright Spritesheet_38: -232410513
+      Celtic Bright Spritesheet_39: -1741721899
+      Celtic Bright Spritesheet_4: 799189532
+      Celtic Bright Spritesheet_40: -2094398639
+      Celtic Bright Spritesheet_41: -1870491652
+      Celtic Bright Spritesheet_42: 1194191813
+      Celtic Bright Spritesheet_43: -1639470623
+      Celtic Bright Spritesheet_44: 542813931
+      Celtic Bright Spritesheet_45: 1251395893
+      Celtic Bright Spritesheet_46: 602023000
+      Celtic Bright Spritesheet_47: 480605238
+      Celtic Bright Spritesheet_48: 1393555108
+      Celtic Bright Spritesheet_49: -2086746152
+      Celtic Bright Spritesheet_5: -61945712
+      Celtic Bright Spritesheet_50: 1829859042
+      Celtic Bright Spritesheet_51: 1643982092
+      Celtic Bright Spritesheet_52: 461842377
+      Celtic Bright Spritesheet_53: -545082628
+      Celtic Bright Spritesheet_54: -1310023209
+      Celtic Bright Spritesheet_55: -731494702
+      Celtic Bright Spritesheet_56: 397609156
+      Celtic Bright Spritesheet_57: 1512680539
+      Celtic Bright Spritesheet_58: 658387065
+      Celtic Bright Spritesheet_59: 1949226401
+      Celtic Bright Spritesheet_6: -706996546
+      Celtic Bright Spritesheet_60: 1993448148
+      Celtic Bright Spritesheet_61: 858764426
+      Celtic Bright Spritesheet_62: -24018348
+      Celtic Bright Spritesheet_63: -2134621709
+      Celtic Bright Spritesheet_64: 2015675485
+      Celtic Bright Spritesheet_65: -534731819
+      Celtic Bright Spritesheet_66: -740996140
+      Celtic Bright Spritesheet_67: 1719983200
+      Celtic Bright Spritesheet_68: 1494982033
+      Celtic Bright Spritesheet_69: -1416633966
+      Celtic Bright Spritesheet_7: -800445445
+      Celtic Bright Spritesheet_70: -1825008810
+      Celtic Bright Spritesheet_71: -2031401977
+      Celtic Bright Spritesheet_72: 926208540
+      Celtic Bright Spritesheet_73: -1459156620
+      Celtic Bright Spritesheet_74: -2029362077
+      Celtic Bright Spritesheet_75: -1585262545
+      Celtic Bright Spritesheet_76: 530243846
+      Celtic Bright Spritesheet_77: -777726793
+      Celtic Bright Spritesheet_78: -1955625528
+      Celtic Bright Spritesheet_79: -431740772
+      Celtic Bright Spritesheet_8: -1800592805
+      Celtic Bright Spritesheet_80: -122179298
+      Celtic Bright Spritesheet_81: 1309098844
+      Celtic Bright Spritesheet_82: 854250085
+      Celtic Bright Spritesheet_83: -635601874
+      Celtic Bright Spritesheet_84: -1624495781
+      Celtic Bright Spritesheet_85: 86992037
+      Celtic Bright Spritesheet_86: -1804804044
+      Celtic Bright Spritesheet_87: 1128746618
+      Celtic Bright Spritesheet_88: -1521321980
+      Celtic Bright Spritesheet_89: 617312073
+      Celtic Bright Spritesheet_9: -1419033916
+      Celtic Bright Spritesheet_90: -2139086070
+      Celtic Bright Spritesheet_91: -1809465127
+      Celtic Bright Spritesheet_92: -269189830
+      Celtic Bright Spritesheet_93: 652365565
+      Celtic Bright Spritesheet_94: -111313997
+      Celtic Bright Spritesheet_95: -889537563
+      Celtic Bright Spritesheet_96: 587243173
+      Celtic Bright Spritesheet_97: 888172769
+      Celtic Bright Spritesheet_98: 244721968
+      Celtic Bright Spritesheet_99: 322116699
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

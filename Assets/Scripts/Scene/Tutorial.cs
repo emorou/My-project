@@ -53,7 +53,7 @@ public class Tutorial : MonoBehaviour
 
     [Header("Easter Egg")]
     public GameObject warpGate7;
-    public GameObject freddyBagas;
+    public GameObject enemyEasterEgg;
     public bool enterEasterEgg = false;
     public GameObject tutorialDone;
     [SerializeField] private TextAsset inkJSON6;
@@ -172,6 +172,7 @@ public class Tutorial : MonoBehaviour
                 DialogueManager.instance.dialoguePanel.SetActive(true);
             }
         }
+
     }
 
     void Chamber1Tutorial()
@@ -245,6 +246,7 @@ public class Tutorial : MonoBehaviour
 
     void BossRoomTutorial()
     {
+        // AudioManager.instance.PlayMusic("Boss Music");
         boss.SetActive(true);
         Transform bossOgre = boss.transform.Find("enemy boss");
         warpGate6.SetActive(false);
@@ -261,8 +263,8 @@ public class Tutorial : MonoBehaviour
     void EasterEgg()
     {
         warpGate7.SetActive(false);
-        freddyBagas.SetActive(true);
-        Transform freddy = enemiesChamber2.transform.Find("enemy");
+        enemyEasterEgg.SetActive(true);
+        Transform freddy = enemyEasterEgg.transform.Find("bagas");
 
         if(freddy == null)
         {

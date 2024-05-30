@@ -6,13 +6,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New  Item", menuName = "ScriptableObjects/Item")]
 public class Item : ScriptableObject
 {
-    public int id;
-    public string itemName;
-    public int value;
-    public Sprite itemIcon;
-    public ItemType itemType;
-    public int quantity;
-    public int itemCost;
+    [SerializeField] public int id;
+    [SerializeField] public string itemName;
+    [SerializeField] public int value;
+    [SerializeField] public Sprite itemIcon;
+    [SerializeField] public ItemType itemType;
+    [SerializeField] public int quantity;
+    [SerializeField] public int itemCost;
     public enum ItemType
     {
         Potion,

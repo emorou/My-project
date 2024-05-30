@@ -2,14 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using UnityEngine.SceneManagement;
-using Unity.VisualScripting;
 
 public class PlayerStats : MonoBehaviour, IDataPersistence
 {
+    public NewQuest quest;
     public CharacterScriptableObject characterData;
     public float currentHealth;
+    public float maxHealth;
     public float currentMoveSpeed;
 
     [Header("I-Frames")]
@@ -36,12 +35,21 @@ public class PlayerStats : MonoBehaviour, IDataPersistence
 
     public List<LevelRange> levelRanges;
     private double remainingGoldForCurrentLevel = 0;
-    bool isPlayerDead;
-
     void Start()
     {
+        LevelUpStats();
         experienceCapIndex = level - 1;
         experienceCap = levelRanges[experienceCapIndex].experienceCapIncrease;
+        if(DataToKeep.isPlayerDead)
+        {
+            Debug.Log("player is dead");
+            gold = Math.Ceiling(gold - (gold * 0.05));
+            DataToKeep.isPlayerDead = false;
+        }
+        else if(!DataToKeep.isPlayerDead)
+        {
+            Debug.Log("player is not dead");
+        }
     }
 
     public void LoadData(GameData data)
@@ -67,8 +75,6 @@ public class PlayerStats : MonoBehaviour, IDataPersistence
 
     void Update()
     {
-        isPlayerDead = false;
-
         if (invincibilityTimer > 0)
         {
             invincibilityTimer -= Time.deltaTime;
@@ -78,51 +84,55 @@ public class PlayerStats : MonoBehaviour, IDataPersistence
             isInvincible = false;
         }
 
-        if(isPlayerDead)
+        if(quest.isActive)
         {
-            gold = Math.Ceiling(gold - (gold * 0.05));
-            isPlayerDead = false;
+            quest.goal.EnemyKilled();
+            if(quest.goal.isReached())
+            {
+                experience += quest.experienceReward;
+                gold += quest.goldReward;
+                quest.Complete();
+            }
         }
     }
 
     void Awake()
     {
         Instance = this;
-        currentHealth = characterData.MaxHealth;
         currentMoveSpeed = characterData.MoveSpeed;
     }
 
-public void TakeDamage(float dmg)
-{
-    if (!isInvincible)
+    public void LevelUpStats()
     {
-        currentHealth -= dmg;
-
-        invincibilityTimer = invincibilityDuration;
-        isInvincible = true;
-
-        if (currentHealth <= 0)
+        maxHealth = characterData.MaxHealth;
+        if(level == 1)
         {
-            Kill(); // Pass the GameData object to the Kill method
-            isPlayerDead = true;
+            currentHealth = maxHealth;
         }
+        else
+        maxHealth = 50 + (level * 50);
+        currentHealth = maxHealth;
     }
-}
-
-    public void Kill()
+    public void TakeDamage(float dmg)
     {
-        Destroy(gameObject);
+        if (!isInvincible)
+        {
+            currentHealth -= dmg;
+
+            invincibilityTimer = invincibilityDuration;
+            isInvincible = true;
+        }
     }
     
     public void RestoreHealth(float amount)
     {
-        if (currentHealth < characterData.MaxHealth)
+        if (currentHealth < maxHealth)
         {
             currentHealth += amount;
 
-            if (currentHealth > characterData.MaxHealth)
+            if (currentHealth > maxHealth)
             {
-                currentHealth = characterData.MaxHealth;
+                currentHealth = maxHealth;
             }
         }
     }
@@ -161,6 +171,7 @@ public void TakeDamage(float dmg)
         {
             level++;
             experience -= experienceCap;
+            LevelUpStats();
 
             int experienceCapIncrease = 0;
             foreach (LevelRange range in levelRanges)
@@ -174,4 +185,5 @@ public void TakeDamage(float dmg)
             experienceCap += experienceCapIncrease;
         }
     }
+
 }

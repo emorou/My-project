@@ -94,19 +94,19 @@ public class PlayerMovement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        // Tentukan layer musuh
+        
         int enemyLayer = LayerMask.NameToLayer("Enemy");
 
-        // Mengabaikan tabrakan antara pemain dan musuh selama dash
+        
         Physics2D.IgnoreLayerCollision(rb.gameObject.layer, enemyLayer, true);
 
-        // Mainkan suara dash
-        AudioManager.instance.PlayMusic("Suara Dash");
+        
+        AudioManager.instance.PlaySFX("Suara Dash");
 
         canDash = false;
         isDashing = true;
 
-        // Atur kecepatan berdasarkan arah dash
+        
         if (moveX != 0 && moveY == 0 && !DialogueManager.instance.dialogueIsPlaying)
         {
             rb.velocity = new Vector2(moveX * dashingPower, 0f);
@@ -123,7 +123,7 @@ public class PlayerMovement : MonoBehaviour
         trailRenderer.emitting = true;
         yield return new WaitForSeconds(dashingTime);
 
-        // Mengembalikan tabrakan antara pemain dan musuh
+        
         Physics2D.IgnoreLayerCollision(rb.gameObject.layer, enemyLayer, false);
         trailRenderer.emitting = false;
         isDashing = false;
