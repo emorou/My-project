@@ -7452,6 +7452,101 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1939724365}
+--- !u!1 &527357009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 527357010}
+  - component: {fileID: 527357012}
+  - component: {fileID: 527357011}
+  m_Layer: 0
+  m_Name: Warp Gate Top (1)
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &527357010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527357009}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 30.2, y: 18.2, z: 0}
+  m_LocalScale: {x: 5.3999996, y: 1.7999997, z: 1.7999997}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1012343362}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &527357011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527357009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5dd0b4df4caf742a277df78f8f5c74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posToGo: {fileID: 829220407}
+  middlePoint: {fileID: 257044143}
+  keyTxt: {fileID: 181794250}
+  cameraBounds: {fileID: 1807847143}
+  enemySpawner: {fileID: 1452653941}
+--- !u!61 &527357012
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527357009}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &527621853
 GameObject:
   m_ObjectHideFlags: 0
@@ -11509,6 +11604,7 @@ MonoBehaviour:
   maxClipSize: 10
   currentAmmo: 10
   maxAmmoSize: 100
+  cameraBoss: {fileID: 271565858}
 --- !u!1 &847648676
 GameObject:
   m_ObjectHideFlags: 0
@@ -14799,6 +14895,7 @@ Transform:
   - {fileID: 348712174}
   - {fileID: 288653943}
   - {fileID: 95772024}
+  - {fileID: 527357010}
   - {fileID: 1151645874}
   m_Father: {fileID: 514691336}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16855,7 +16952,7 @@ Transform:
   m_GameObject: {fileID: 1151645873}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.12, y: 11.04, z: 0}
+  m_LocalPosition: {x: 7.58, y: 11.16, z: 0}
   m_LocalScale: {x: 5.4, y: 1.7999998, z: 1.7999998}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16877,7 +16974,7 @@ MonoBehaviour:
   middlePoint: {fileID: 257044143}
   keyTxt: {fileID: 181794250}
   cameraBounds: {fileID: 1807847143}
-  enemySpawner: {fileID: 1452653941}
+  enemySpawner: {fileID: 720660611}
 --- !u!61 &1151645876
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19759,7 +19856,7 @@ MonoBehaviour:
   spawnInterval: 2
   nextSpawnTime: 0
   currentEnemyIndex: 0
-  entranceTrigger: {fileID: 829220406}
+  entranceTrigger: {fileID: 2058792331}
   ableToTeleport: 1
   playerEnteredRoom: 0
   isRoomClear: 0
@@ -29624,6 +29721,7 @@ MonoBehaviour:
   weaponData: {fileID: 11400000, guid: bb220eb4e918f644799fb2e5baa62c05, type: 2}
   anim: {fileID: 12409200}
   sword: {fileID: 503829258}
+  cameraBoss: {fileID: 271565858}
   test: 0
 --- !u!1 &1862293697
 GameObject:
