@@ -21,9 +21,13 @@ public class AudioManager : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
 
-        if(sceneName == "Level Tutorial")
+        if(sceneName == "New Tutorial")
         {
             PlayMusic("Tutorial Music");
+        }
+        else if(sceneName == "Main Menu")
+        {
+            PlayMusic("Main Menu Music");
         }
 
     }

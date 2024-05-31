@@ -42,6 +42,4 @@ public class WeaponController : MonoBehaviour
         AudioManager.instance.PlaySFX("Suara Pistol");
         currentCooldownRanged = weaponData.CooldownDurationRanged;
     }
-
-
 }

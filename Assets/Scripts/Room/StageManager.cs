@@ -34,6 +34,8 @@ public class StageManager : MonoBehaviour
 
     void Update()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
+        string sceneName = currentScene.name;
         healthBar.value = playerStats.currentHealth;
         healthBar.maxValue = playerStats.maxHealth;
         ammoBar.value = knifeController.currentClip;
@@ -49,13 +51,18 @@ public class StageManager : MonoBehaviour
             deathScreen.SetActive(true); 
         }
 
-        if(enemySpawner.ableToTeleport)
+        if(sceneName != "Lobby New")
+        {
+            if(enemySpawner.ableToTeleport)
         {
             DataToKeep.enemyCounter = 0;
             enemyCountText.text = "";
         }
         else
         enemyCountText.text = DataToKeep.enemyCounter.ToString() + " / " + enemySpawner.enemyPrefab.Count;
+        }
+        else
+        enemyCountText.text = "";
     }
     
     public void WinButton()
@@ -73,6 +80,10 @@ public class StageManager : MonoBehaviour
         
     }
 
+    public void MainMenuBUtton()
+    {
+        LevelLoader.instance.NextLevel(1);
+    }
     public void DeathGameButton()
     {
         Time.timeScale = 1f;

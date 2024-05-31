@@ -3583,17 +3583,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &233670764 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3076568760781956307, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
-  m_PrefabInstance: {fileID: 2492655400115245671}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &233670765 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3267389338496226732, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
@@ -4207,17 +4196,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &268306260 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6611880443625210722, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
-  m_PrefabInstance: {fileID: 2492655400115245671}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &271565854
 GameObject:
   m_ObjectHideFlags: 0
@@ -8521,7 +8499,7 @@ Transform:
   m_GameObject: {fileID: 503829258}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.06340675, w: 0.9979878}
-  m_LocalPosition: {x: -0.4, y: -0.26, z: 0}
+  m_LocalPosition: {x: 4.98, y: -2.28, z: 0}
   m_LocalScale: {x: 5, y: 5.0436897, z: 4.854369}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8894,20 +8872,9 @@ MonoBehaviour:
   shopPanels:
   - {fileID: 233670765}
   purchaseButton:
-  - {fileID: 233670764}
+  - {fileID: 0}
   shopUI: {fileID: 1937136452}
   isShopAppear: 0
---- !u!114 &512695110 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 969111037930361539, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
-  m_PrefabInstance: {fileID: 2492655400115245671}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &514691335
 GameObject:
   m_ObjectHideFlags: 0
@@ -9494,7 +9461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameIsPaused: 0
-  pauseScreen: {fileID: 1900839604}
+  pauseScreen: {fileID: 0}
 --- !u!4 &535379653
 Transform:
   m_ObjectHideFlags: 0
@@ -10419,6 +10386,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &619463152 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2736290469277343121, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+  m_PrefabInstance: {fileID: 2492655400115245671}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &621118853
@@ -13586,6 +13564,7 @@ MonoBehaviour:
   maxClipSize: 10
   currentAmmo: 10
   maxAmmoSize: 100
+  cameraBoss: {fileID: 271565858}
 --- !u!1 &847648676
 GameObject:
   m_ObjectHideFlags: 0
@@ -20825,17 +20804,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1238573494 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1437132729789538569, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
-  m_PrefabInstance: {fileID: 2492655400115245671}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1243479479
 GameObject:
   m_ObjectHideFlags: 0
@@ -32627,6 +32595,7 @@ MonoBehaviour:
   weaponData: {fileID: 11400000, guid: bb220eb4e918f644799fb2e5baa62c05, type: 2}
   anim: {fileID: 12409200}
   sword: {fileID: 503829258}
+  cameraBoss: {fileID: 271565858}
   test: 0
 --- !u!1 &1862293697
 GameObject:
@@ -33080,11 +33049,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1900839604 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8630284904313575833, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+--- !u!114 &1902752978 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1744561684394081035, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
   m_PrefabInstance: {fileID: 2492655400115245671}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1918299317
 GameObject:
   m_ObjectHideFlags: 0
@@ -35830,7 +35805,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c723f3e61d98afb4fb0f28721a65afac, type: 2}
   - {fileID: 11400000, guid: c837416aae446f84c852aedfcb4c0205, type: 2}
   itemInInventory: []
-  enableRemove: {fileID: 512695110}
   isRemoveMode: 0
   inventoryUI: {fileID: 1467043207}
 --- !u!4 &2027807886
@@ -37275,8 +37249,8 @@ MonoBehaviour:
   deathScreen: {fileID: 1246940484}
   healthBar: {fileID: 1446081990}
   ammoBar: {fileID: 1615169463}
-  musicSlider: {fileID: 268306260}
-  sfxSlider: {fileID: 1238573494}
+  musicSlider: {fileID: 1902752978}
+  sfxSlider: {fileID: 619463152}
 --- !u!4 &2104890402
 Transform:
   m_ObjectHideFlags: 0
@@ -38208,6 +38182,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 454723916}
     m_Modifications:
+    - target: {fileID: 409481794226202617, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 969111037930361539, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -38220,14 +38198,38 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2104890401}
+    - target: {fileID: 1927567074302628309, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+      propertyPath: m_StartAxis
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927567074302628309, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+      propertyPath: m_CellSize.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927567074302628309, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+      propertyPath: m_Constraint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927567074302628309, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+      propertyPath: m_StartCorner
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1977509556912049372, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229519632136334266, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+      propertyPath: m_Name
+      value: SFX Slider
       objectReference: {fileID: 0}
     - target: {fileID: 2467537185189108871, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2104890401}
+    - target: {fileID: 2555160810807288401, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2656644327490753486, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -38239,6 +38241,10 @@ PrefabInstance:
     - target: {fileID: 2729479361729825802, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
       propertyPath: m_Name
       value: Non Dialogue UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 2825252829941005311, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3320243389418306039, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
       propertyPath: m_Name

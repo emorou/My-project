@@ -181,15 +181,15 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 6ce7388fa67d88647886672859acc372, type: 3}
   sfxSounds:
   - name: Suara Pedang
-    clip: {fileID: 8300000, guid: b45d1473637bca941904b0c7cc09f92f, type: 3}
+    clip: {fileID: 8300000, guid: c1a47f83461a919428ae1325fdf64cf9, type: 3}
   - name: Suara Pistol
-    clip: {fileID: 8300000, guid: 20a5433086b73a14d8f4b71060a6c14b, type: 3}
+    clip: {fileID: 8300000, guid: 86b3d460f290419469189c0932ccf9b9, type: 3}
   - name: Prop Hancur
     clip: {fileID: 8300000, guid: 8b9dbad7b8e5e61469e25d4fb5620d3e, type: 3}
   - name: Pickup Item
     clip: {fileID: 8300000, guid: 901521c5305c95146a26d1be28e8a675, type: 3}
   - name: Suara Dash
-    clip: {fileID: 8300000, guid: 5fe508d543bbbf440ad89572ae186147, type: 3}
+    clip: {fileID: 8300000, guid: e6cdefed033b54341a9be3939c8af045, type: 3}
   - name: Player Kena Damage
     clip: {fileID: 8300000, guid: 8d63528a6ecf40449b5ebcaa9c54906e, type: 3}
   - name: NPC Interact
