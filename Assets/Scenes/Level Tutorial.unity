@@ -18896,6 +18896,7 @@ MonoBehaviour:
   maxClipSize: 10
   currentAmmo: 10
   maxAmmoSize: 100
+  cameraBoss: {fileID: 0}
 --- !u!1 &846113872
 GameObject:
   m_ObjectHideFlags: 0
@@ -49488,6 +49489,7 @@ MonoBehaviour:
   weaponData: {fileID: 11400000, guid: bb220eb4e918f644799fb2e5baa62c05, type: 2}
   anim: {fileID: 12409200}
   sword: {fileID: 503829258}
+  cameraBoss: {fileID: 0}
   test: 0
 --- !u!1 &1859575079
 GameObject:
@@ -60895,6 +60897,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 454723916}
     m_Modifications:
+    - target: {fileID: 409481794226202617, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 969111037930361539, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
