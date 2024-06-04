@@ -735,11 +735,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.6652493, y: 7.111251}
   m_EdgeRadius: 0
---- !u!224 &21600789 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2825252829941005311, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
-  m_PrefabInstance: {fileID: 2492655400115245671}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &28069780
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1327,11 @@ Transform:
 --- !u!1 &55904639 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8853949374488094726, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+  m_PrefabInstance: {fileID: 2492655400115245671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &62041381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7830562521100400457, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
   m_PrefabInstance: {fileID: 2492655400115245671}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &62182502
@@ -22303,6 +22303,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!224 &1438691610 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1798251047683130893, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
+  m_PrefabInstance: {fileID: 2492655400115245671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1438909073
 GameObject:
   m_ObjectHideFlags: 0
@@ -22673,11 +22678,6 @@ Transform:
   - {fileID: 864096820}
   m_Father: {fileID: 1674734091}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1467043207 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 409481794226202617, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
-  m_PrefabInstance: {fileID: 2492655400115245671}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1486762553
 GameObject:
   m_ObjectHideFlags: 0
@@ -35981,14 +35981,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8afa0732bcb06e445b44f636772e5603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemContent: {fileID: 21600789}
+  itemContent: {fileID: 1438691610}
   inventoryItem: {fileID: 7814332817846599656, guid: 89fcc923998235648bd3a55d00201aa1, type: 3}
   InventoryItems:
   - {fileID: 11400000, guid: c723f3e61d98afb4fb0f28721a65afac, type: 2}
   - {fileID: 11400000, guid: c837416aae446f84c852aedfcb4c0205, type: 2}
   itemInInventory: []
   isRemoveMode: 0
-  inventoryUI: {fileID: 1467043207}
+  inventoryUI: {fileID: 62041381}
 --- !u!4 &2027807886
 Transform:
   m_ObjectHideFlags: 0
