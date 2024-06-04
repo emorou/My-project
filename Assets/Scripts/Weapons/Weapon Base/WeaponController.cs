@@ -35,6 +35,7 @@ public class WeaponController : MonoBehaviour
         {
             knifeController.Reload();
         }
+        
     }
 
     protected virtual void KnifeAttack()

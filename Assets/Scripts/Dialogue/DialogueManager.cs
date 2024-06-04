@@ -57,7 +57,7 @@ public class DialogueManager : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
 
-        if(sceneName == "Level Tutorial")
+        if(sceneName == "New Tutorial")
         {
             EnterDialogueMode(inkJSON);
             dialogueIsPlaying = true;

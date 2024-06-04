@@ -32,6 +32,11 @@ public class InventoryManager : MonoBehaviour, IDataPersistence
         {
             inventoryUI.SetActive(false);
         }
+
+        if(inventoryUI.activeSelf)
+        Time.timeScale = 0f;
+        else
+        Time.timeScale = 1f;
     }
 
     public void LoadData(GameData data)

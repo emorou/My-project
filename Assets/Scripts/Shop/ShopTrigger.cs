@@ -1,3 +1,4 @@
+using System.Threading;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,12 +21,15 @@ public class ShopTrigger : MonoBehaviour
             visualCue.SetActive(true);
             if(Input.GetKeyDown(KeyCode.F))
             {
+                Time.timeScale = 0f;
+                AudioManager.instance.PlaySFX("NPC Interact");
                 shop.SetActive(true);
             }
             
         } 
         else if(Input.GetKeyDown(KeyCode.Escape) && shop.activeSelf)
         {
+            Time.timeScale = 1f;
             shop.SetActive(false);
         }
 

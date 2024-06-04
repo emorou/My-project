@@ -202,6 +202,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 1b49049030d68b8458021d158e93c076, type: 3}
   - name: Hover UI
     clip: {fileID: 8300000, guid: 57fa51d46c67eb148afa7dd9b5e58de0, type: 3}
+  - name: Empty Ammo
+    clip: {fileID: 8300000, guid: dfcef950f069845489bb68cd9167f7c6, type: 3}
   musicSource: {fileID: 130560279753575187}
   sfxSource: {fileID: 4578331016784372924}
 --- !u!1 &6717335914768150029

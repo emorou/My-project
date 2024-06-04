@@ -69,25 +69,30 @@ public class StageManager : MonoBehaviour
     {
         DataPersistenceManager.instance.SaveGame();
 
-        LevelLoader.instance.NextLevel(5);
+        LevelLoader.instance.NextLevel(2);
     }
     
     public void Level1Button()
     {   
         DataPersistenceManager.instance.SaveGame();
        
-        LevelLoader.instance.NextLevel(6);
-        
+        LevelLoader.instance.NextLevel(3);
     }
 
-    public void MainMenuBUtton()
-    {
+    public void TutorialButton()
+    {   
+        DataPersistenceManager.instance.SaveGame();
+       
         LevelLoader.instance.NextLevel(1);
+    }
+    public void MainMenuButton()
+    {
+        LevelLoader.instance.NextLevel(0);
     }
     public void DeathGameButton()
     {
         Time.timeScale = 1f;
-        LevelLoader.instance.NextLevel(5);
+        LevelLoader.instance.NextLevel(2);
     }
 
     public void ToggleMusic()

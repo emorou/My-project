@@ -31,7 +31,7 @@ public class EnemyStats : MonoBehaviour
         currentHealth = MaxHealth;
         healthBar.value = currentHealth;
         healthBar.maxValue = MaxHealth;
-        canvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        // canvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
     }
     void Update()
     {

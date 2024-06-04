@@ -63,14 +63,14 @@ public class SaveSlotsMenu : MonoBehaviour
     {
         DataPersistenceManager.instance.SaveGame();
 
-        LevelLoader.instance.NextLevel(5);
+        LevelLoader.instance.NextLevel(2);
     }
 
     private void GoToTutorial()
     {
         DataPersistenceManager.instance.SaveGame();
 
-        LevelLoader.instance.NextLevel(2);
+        LevelLoader.instance.NextLevel(1);
     }
 
     public void OnClearClicked(SaveSlot saveSlot)
