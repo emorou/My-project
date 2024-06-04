@@ -9163,7 +9163,7 @@ MonoBehaviour:
   m_Follow: {fileID: 12409197}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 20
+    OrthographicSize: 8
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0

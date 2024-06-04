@@ -2668,11 +2668,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.6
+  orthographic size: 8
   m_Depth: -79.41
   m_CullingMask:
     serializedVersion: 2
@@ -4196,7 +4196,7 @@ Transform:
   m_GameObject: {fileID: 964036111}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.06340675, w: 0.9979878}
-  m_LocalPosition: {x: 4.98, y: -10.3, z: 0}
+  m_LocalPosition: {x: 4.98, y: 2.18, z: 0}
   m_LocalScale: {x: 5, y: 5.0436897, z: 4.854369}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5130,7 +5130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3320243389418306039, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3657144105975241057, guid: d1a6e356ce2008e448c461b135f2b242, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -5532,8 +5532,8 @@ MonoBehaviour:
   m_Follow: {fileID: 12409197}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5.6
-    NearClipPlane: 0.3
+    OrthographicSize: 8
+    NearClipPlane: 0.1
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
@@ -6644,7 +6644,7 @@ Transform:
   m_GameObject: {fileID: 1530931113}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1, y: -1.5, z: 0}
+  m_LocalPosition: {x: 1.21, y: 0, z: 0}
   m_LocalScale: {x: 0.68333334, y: 0.68333334, z: 0.68333334}
   m_ConstrainProportionsScale: 1
   m_Children:

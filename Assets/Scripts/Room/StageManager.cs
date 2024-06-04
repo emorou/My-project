@@ -51,18 +51,18 @@ public class StageManager : MonoBehaviour
             deathScreen.SetActive(true); 
         }
 
-        if(sceneName != "Lobby New")
-        {
-            if(enemySpawner.ableToTeleport)
+        if(enemySpawner.ableToTeleport)
         {
             DataToKeep.enemyCounter = 0;
             enemyCountText.text = "";
         }
         else
         enemyCountText.text = DataToKeep.enemyCounter.ToString() + " / " + enemySpawner.enemyPrefab.Count;
+
+        if(sceneName == "Lobby")
+        {
+            enemyCountText.text = "";
         }
-        else
-        enemyCountText.text = "";
     }
     
     public void WinButton()
