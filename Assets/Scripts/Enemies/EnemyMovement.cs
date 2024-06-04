@@ -23,6 +23,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
+       
         if (knockbackDuration > 0)
         {
             transform.position += (Vector3)knockbackVelocity * Time.deltaTime;
@@ -38,6 +39,7 @@ public class EnemyMovement : MonoBehaviour
 
     public void Knockback(Vector2 velocity, float duration)
     {
+        
         if (knockbackDuration > 0) return;
 
         knockbackVelocity = velocity;

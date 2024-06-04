@@ -1,8 +1,7 @@
-using System.Text;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class EnemyStats : MonoBehaviour
 {
     public EnemyScriptableObjects enemyData;
@@ -17,6 +16,7 @@ public class EnemyStats : MonoBehaviour
     public Canvas canvas;
     public Slider healthBar;
     public GameObject healthBarGO;
+
     void Awake()
     {
         enemySpawner = FindObjectOfType<EnemySpawner>();
@@ -26,23 +26,23 @@ public class EnemyStats : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>(); // Mengambil komponen Rigidbody2D
     }
+
     public void Start()
     {
         currentHealth = MaxHealth;
         healthBar.value = currentHealth;
         healthBar.maxValue = MaxHealth;
-        // canvas.worldCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
     }
+
     void Update()
     {
-        if(healthBar.value != MaxHealth)
-        healthBarGO.SetActive(true);
+        if (healthBar.value != MaxHealth)
+            healthBarGO.SetActive(true);
         else
-        healthBarGO.SetActive(false);
-        
-        healthBar.value = currentHealth; 
+            healthBarGO.SetActive(false);
+
+        healthBar.value = currentHealth;
     }
-    
 
     public void TakeDamage(float dmg, Vector2 sourcePosition, float knockbackForce = 10f, float knockbackDuration = 0.2f)
     {
@@ -55,7 +55,7 @@ public class EnemyStats : MonoBehaviour
             Kill();
         }
 
-        if (knockbackForce > 0)
+        if (!enemyData.isBoss && knockbackForce > 0) // Periksa apakah musuh bukan bos sebelum menerapkan knockback
         {
             // Hitung arah knockback
             Vector2 dir = (Vector2)transform.position - sourcePosition;
@@ -75,7 +75,6 @@ public class EnemyStats : MonoBehaviour
         yield return new WaitForSeconds(duration);
         rb.velocity = Vector2.zero; // Hentikan kecepatan musuh setelah knockback berakhir
     }
-
 
     public void Kill()
     {
@@ -122,7 +121,7 @@ public class EnemyStats : MonoBehaviour
         {
             playerRb.isKinematic = false; // Mengaktifkan kembali Rigidbody pemain setelah jeda
             Debug.Log("Player Rigidbody Reactivated");
-        }  
+        }
     }
 
     // Method to reactivate the enemy after a delay
