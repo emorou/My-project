@@ -39334,7 +39334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   posToGo: {fileID: 4796040859195980443}
-  middlePoint: {fileID: 0}
+  middlePoint: {fileID: 1461885729}
   keyTxt: {fileID: 181794250}
   cameraBounds: {fileID: 650257022}
   cameraMain: {fileID: 519420028}
