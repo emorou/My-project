@@ -18,7 +18,6 @@ public class ShopManager : MonoBehaviour
     private void Start()
     {
         LoadItems();
-        CheckPurchaseable();
     }
 
     public void Update()
@@ -42,29 +41,12 @@ public class ShopManager : MonoBehaviour
         }
     }
 
-    public void CheckPurchaseable()
-    {
-        // for (int i = 0; i < items.Length; i++)
-        // {
-        //    if(PlayerStats.Instance.gold >= items[i].itemCost)
-        //     {
-        //         purchaseButton[i].interactable = true;
-        //     } 
-        //     else
-        //     {
-        //         purchaseButton[i].interactable = false;
-        //     }
-        // }
-        
-    }
-
     public void PurchaseItem(int buttonNumber)
     {
         if (PlayerStats.Instance.gold >= items[buttonNumber].itemCost)
         {
             InventoryManager.instance.Add(items[buttonNumber]);
             PlayerStats.Instance.gold -= items[buttonNumber].itemCost;
-            CheckPurchaseable();
         }
     }
 }

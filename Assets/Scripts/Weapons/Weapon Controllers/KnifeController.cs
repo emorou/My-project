@@ -8,10 +8,13 @@ public class KnifeController : WeaponController
 
     public static KnifeController instance;
 
+    [SerializeField] private Camera cameraBoss; // Tambahkan referensi ke kamera boss
+
     void Awake()
     {
         instance = this;
     }
+
     protected override void Start()
     {
         currentClip = maxClipSize;
@@ -24,16 +27,20 @@ public class KnifeController : WeaponController
         {
             base.KnifeAttack();
             currentClip--;
+
+            // Determine which camera is currently active or fallback to main camera if cameraBoss is not set
+            Camera activeCamera = (cameraBoss != null && cameraBoss.isActiveAndEnabled) ? cameraBoss : Camera.main;
+
             Vector3 mousePosition = Input.mousePosition;
-            mousePosition.z = -Camera.main.transform.position.z;
-            Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+            mousePosition.z = -activeCamera.transform.position.z;
+            Vector3 worldMousePosition = activeCamera.ScreenToWorldPoint(mousePosition);
             Vector3 direction = worldMousePosition - transform.position;
 
             // Normalize the direction vector to have a magnitude of 1
             direction.Normalize();
 
             // Offset the spawn position slightly in the direction of the mouse cursor
-            Vector3 spawnPosition = transform.position + direction * 1f; // Adjust the 0.5f value as needed
+            Vector3 spawnPosition = transform.position + direction * 1f; // Adjust the 1f value as needed
 
             // Instantiate the knife at the spawn position
             GameObject spawnedKnife = Instantiate(weaponData.Prefab, spawnPosition, Quaternion.identity);
@@ -57,5 +64,3 @@ public class KnifeController : WeaponController
         }
     }
 }
-
-

@@ -16,7 +16,7 @@ public class EnemySpawner : MonoBehaviour
     public bool playerEnteredRoom = false;
     public bool isRoomClear = false;
     public List<GameObject> spawnedEnemies = new List<GameObject>(); // Keep track of spawned enemies
-
+    private EnemyStats enemyStats;
     public void SpawnEnemy()
     {
         ableToTeleport = false;
@@ -33,7 +33,6 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    // Call this method to remove an enemy from the list
     public void RemoveEnemy(GameObject enemy)
     {
         spawnedEnemies.Remove(enemy);
@@ -59,6 +58,6 @@ public class EnemySpawner : MonoBehaviour
             ableToTeleport = true;
             isRoomClear = true;
         }
-       
+        
     }
 }

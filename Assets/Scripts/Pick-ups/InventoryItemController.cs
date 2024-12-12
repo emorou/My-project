@@ -7,25 +7,21 @@ public class InventoryItemController : MonoBehaviour
     public Item item;
     [SerializeField] private TextMeshProUGUI itemName;
     [SerializeField] private Image itemIcon;
-    public GameObject removeButton;
     public TMP_Text quantityText;
-
-    private void Update()
-    {
-        if (InventoryManager.instance.isRemoveMode) removeButton.SetActive(true);
-        else removeButton.SetActive(false);
-    }
+    public GameObject itemBox;
     public Item Item
     {
         get { return item; }
     }
 
+    void Update()
+    {
+        itemBox.SetActive(true);
+    }
     public void RemoveItem()
     {
         item.quantity = 0;
         gameObject.SetActive(false);
-        // InventoryManager.instance.Remove(item);
-        // Destroy(gameObject);
     }
 
     public void SetItem(Item newItem)
@@ -48,6 +44,7 @@ public class InventoryItemController : MonoBehaviour
         switch (item.itemType)
         {
             case Item.ItemType.Potion:
+                AudioManager.instance.PlaySFX("Pakai Potion");
                 PlayerStats.Instance.RestoreHealth(item.value);
                 quantityText.text = item.quantity.ToString();
                 item.quantity--;
@@ -63,13 +60,9 @@ public class InventoryItemController : MonoBehaviour
                 break;
         }
         SetItem(item);
-        // RemoveItem();
+
     }
 
-    // public void UpdateQuantityText()
-    // {
-    //     quantityText.text = item.quantity.ToString();
-    // }
     public Item GetItem()
     {
         return item;

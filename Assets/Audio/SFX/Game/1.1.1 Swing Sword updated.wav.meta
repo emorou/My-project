@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Audio/SFX/1.1.1 Swing Sword updated.wav.meta
+guid: c1a47f83461a919428ae1325fdf64cf9
+========
+guid: b45d1473637bca941904b0c7cc09f92f
+>>>>>>>> 69892f2052fff5fe2c299914f45538745c55499d:Assets/Audio/SFX/Game/1.1.1 Swing Sword updated.wav.meta
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

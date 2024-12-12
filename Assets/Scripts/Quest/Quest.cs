@@ -2,18 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Quest
+public class Quest 
 {
     public QuestInfoSO info;
 
     public QuestState state;
+    
     private int currentQuestStepIndex;
 
     public Quest(QuestInfoSO questInfo)
     {
         this.info = questInfo;
         this.state = QuestState.REQUIREMENTS_NOT_MET;
-        this.currentQuestStepIndex = 0; 
+        this.currentQuestStepIndex = 0;
     }
 
     public void MoveToNextStep()
@@ -44,7 +45,7 @@ public class Quest
         }
         else
         {
-            Debug.LogWarning("stepindex out of range & no current step aowkowkow");
+            Debug.LogWarning("Tried to get quest step prefab, but stepIndex was out of range indicating that " + "there's no current step: QuestId= " + info.id + ", stepIndex=" + currentQuestStepIndex);
         }
         return questStepPrefab;
     }

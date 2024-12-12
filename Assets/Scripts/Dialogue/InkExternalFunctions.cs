@@ -35,7 +35,7 @@ public class InkExternalFunctions
 
     public void BackToIntro()
     {
-        SceneManager.LoadSceneAsync("Intro");
+        SceneManager.LoadSceneAsync("Main Menu");
     }
 
     public void StartTutorial()

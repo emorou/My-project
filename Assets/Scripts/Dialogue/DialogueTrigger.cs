@@ -8,7 +8,7 @@ public class DialogueTrigger : MonoBehaviour
     
     [Header("Ink JSON")]
     [SerializeField] private TextAsset inkJSON;
-    private bool playerInRange;
+    private  bool playerInRange;
 
     private void Awake()
     {
@@ -23,6 +23,7 @@ public class DialogueTrigger : MonoBehaviour
             visualCue.SetActive(true);
             if(Input.GetKeyDown(KeyCode.F))
             {
+                AudioManager.instance.PlaySFX("NPC Interact");
                 DialogueManager.instance.EnterDialogueMode(inkJSON);
             }
         }    

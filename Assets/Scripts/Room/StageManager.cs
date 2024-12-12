@@ -9,9 +9,11 @@ public class StageManager : MonoBehaviour
     public TMP_Text levelText;
     public TMP_Text healthText;
     public TMP_Text bulletText;
+    public TMP_Text enemyCountText;
 
     private PlayerStats playerStats;
     private KnifeController knifeController;
+    private EnemySpawner enemySpawner;
 
     public GameObject player;
     public GameObject deathScreen;
@@ -25,12 +27,15 @@ public class StageManager : MonoBehaviour
     {
         playerStats = FindObjectOfType<PlayerStats>();
         knifeController = FindObjectOfType<KnifeController>();
+        enemySpawner = FindObjectOfType<EnemySpawner>();
         healthBar.value = playerStats.currentHealth;
         ammoBar.value = knifeController.currentClip;
     }
 
     void Update()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
+        string sceneName = currentScene.name;
         healthBar.value = playerStats.currentHealth;
         healthBar.maxValue = playerStats.maxHealth;
         ammoBar.value = knifeController.currentClip;
@@ -45,23 +50,45 @@ public class StageManager : MonoBehaviour
             // Time.timeScale = 0f;
             deathScreen.SetActive(true); 
         }
+
+        if(enemySpawner.ableToTeleport)
+        {
+            DataToKeep.enemyCounter = 0;
+            enemyCountText.text = "";
+        }
+        else
+        enemyCountText.text = DataToKeep.enemyCounter.ToString() + " / " + enemySpawner.enemyPrefab.Count;
+
+        if(sceneName == "Lobby")
+        {
+            enemyCountText.text = "";
+        }
     }
     
     public void WinButton()
     {
         DataPersistenceManager.instance.SaveGame();
 
-        LevelLoader.instance.NextLevel(5);
+        LevelLoader.instance.NextLevel(2);
     }
     
     public void Level1Button()
     {   
         DataPersistenceManager.instance.SaveGame();
        
-        LevelLoader.instance.NextLevel(6);
-        
+        LevelLoader.instance.NextLevel(3);
     }
 
+    public void TutorialButton()
+    {   
+        DataPersistenceManager.instance.SaveGame();
+       
+        LevelLoader.instance.NextLevel(1);
+    }
+    public void MainMenuButton()
+    {
+        LevelLoader.instance.NextLevel(0);
+    }
     public void DeathGameButton()
     {
         Time.timeScale = 1f;

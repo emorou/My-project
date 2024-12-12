@@ -10,7 +10,6 @@ public class InventoryManager : MonoBehaviour, IDataPersistence
 
     public List<Item> InventoryItems = new List<Item>();
     public List<InventoryItemController> itemInInventory;
-    public Toggle enableRemove;
     public bool isRemoveMode = false;
 
     public GameObject inventoryUI;
@@ -23,7 +22,6 @@ public class InventoryManager : MonoBehaviour, IDataPersistence
 
     void Update()
     {
-        if (enableRemove.isOn) isRemoveMode = true; else isRemoveMode = false;
 
         if(Input.GetKeyDown(KeyCode.I) && !inventoryUI.activeSelf && !DialogueManager.instance.dialogueIsPlaying)
         {
@@ -34,6 +32,11 @@ public class InventoryManager : MonoBehaviour, IDataPersistence
         {
             inventoryUI.SetActive(false);
         }
+
+        if(inventoryUI.activeSelf)
+        Time.timeScale = 0f;
+        else
+        Time.timeScale = 1f;
     }
 
     public void LoadData(GameData data)
@@ -100,23 +103,6 @@ public class InventoryManager : MonoBehaviour, IDataPersistence
         // }
     }
 
-    public void EnableItemsRemove()
-    {
-        if (enableRemove.isOn)
-        {
-            foreach (Transform item in itemContent)
-            {
-                item.Find("Remove Button").gameObject.SetActive(true);
-            }
-        }
-        else
-        {
-            foreach (Transform item in itemContent)
-            {
-                item.Find("Remove x`Button").gameObject.SetActive(false);
-            }
-        }
-    }
     public void Remove(Item item)
     {
         // Check if the item exists in the inventory

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour, IDataPersistence
 {
+    public NewQuest quest;
     public CharacterScriptableObject characterData;
     public float currentHealth;
     public float maxHealth;
@@ -41,8 +42,13 @@ public class PlayerStats : MonoBehaviour, IDataPersistence
         experienceCap = levelRanges[experienceCapIndex].experienceCapIncrease;
         if(DataToKeep.isPlayerDead)
         {
+            Debug.Log("player is dead");
             gold = Math.Ceiling(gold - (gold * 0.05));
             DataToKeep.isPlayerDead = false;
+        }
+        else if(!DataToKeep.isPlayerDead)
+        {
+            Debug.Log("player is not dead");
         }
     }
 
@@ -76,6 +82,17 @@ public class PlayerStats : MonoBehaviour, IDataPersistence
         else if (isInvincible)
         {
             isInvincible = false;
+        }
+
+        if(quest.isActive)
+        {
+            quest.goal.EnemyKilled();
+            if(quest.goal.isReached())
+            {
+                experience += quest.experienceReward;
+                gold += quest.goldReward;
+                quest.Complete();
+            }
         }
     }
 
